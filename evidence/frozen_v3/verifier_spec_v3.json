@@ -1,0 +1,88 @@
+{
+  "retrieval_policy": {
+    "cache": {
+      "invariant": "provider and content must match first retrieval",
+      "key": "pmcid",
+      "semantics": "completed retrievals only"
+    },
+    "fulltext_providers": [
+      "europepmc",
+      "ncbi_pmc"
+    ],
+    "parser": "regex JATS body -> section/paragraph",
+    "retries_per_provider": 3
+  },
+  "retrieval_policy_sha256": "a4c1597f887c91d5c6cd0671d5084af897aed0104e48272a06822ee8df41a1e7",
+  "run_environment": {
+    "corpus_reproduced_vs_reference": false,
+    "corpus_sha256": "d021db69278139e7c65eee8d3b9612bdc1a6b2b3db45c0d4da8faadbcd9106f8",
+    "frozen_at": "2026-09-04",
+    "registry_sha256": "ae4675df3fd11bc1e27989ffb79f0d472dc7f7358babb5a99eeddd43281dd433"
+  },
+  "run_environment_sha256": "e65d3dd52b8dbbbe46a01bad15a9d234f2d3414b549f9eb167bfe2c19e6c3cf2",
+  "verifier_logic": {
+    "anchored_states": [
+      "approximate",
+      "exact",
+      "normalised_exact"
+    ],
+    "approx_floor": 0.85,
+    "full_text_states": [
+      "fulltext_available"
+    ],
+    "negation_regex": "\\b(no|not|nor|never|without|fail(s|ed)?|absence of|did not|does not|unable to|lack(s|ed|ing)?|non-?significant|unchanged)\\b",
+    "negation_scope": "sentence_containing_span",
+    "over_assertion_gate": [
+      "contradicted",
+      "grounded",
+      "partially_grounded"
+    ],
+    "partial_text_states": [
+      "abstract_only",
+      "fulltext_not_oa",
+      "fulltext_retrieval_failed"
+    ],
+    "polarity_invariant": "claim == span implies no polarity conflict",
+    "states": [
+      "contradicted",
+      "grounded",
+      "no_evidence_offered",
+      "partially_grounded",
+      "unsupported",
+      "unverifiable_partial_text"
+    ],
+    "strength_lexicon": {
+      "1": [
+        "\\bsuggest(s|ed)\\b",
+        "\\bmay\\b",
+        "\\bmight\\b",
+        "\\bcould\\b",
+        "\\bassociated with\\b",
+        "\\bcorrelat(es|ed)\\b",
+        "\\bpropos(es|ed)\\b",
+        "\\bappears?\\b",
+        "\\bpotential(ly)?\\b",
+        "\\bhypothesi[sz]ed?\\b"
+      ],
+      "2": [
+        "\\bdemonstrat(es|ed)\\b",
+        "\\bshow(s|ed|n)\\b",
+        "\\bconfirm(s|ed)\\b",
+        "\\bfound that\\b",
+        "\\bresults? in\\b",
+        "\\bleads? to\\b"
+      ],
+      "3": [
+        "\\bprov(es|en|ing)\\b",
+        "\\bestablish(es|ed)\\b",
+        "\\bcauses?\\b",
+        "\\bcausal\\b",
+        "\\bis responsible for\\b",
+        "\\bdetermines?\\b"
+      ]
+    },
+    "strength_measured_on": "matched_span",
+    "version": "v3"
+  },
+  "verifier_logic_sha256": "489e04ad03f2d74b6932f4780d49a8896041e3c33e40d6e7f9efd35c108c7536"
+}

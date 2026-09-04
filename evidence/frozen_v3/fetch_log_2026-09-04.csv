@@ -1,0 +1,11 @@
+pmcid,provider,url,attempt,http_status,content_type,bytes,exception,retry_after,outcome
+PMC9605988,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9605988/fullTextXML,0,200,application/xml,192684,,,fulltext_parsed
+PMC8066494,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8066494/fullTextXML,0,200,application/xml,201745,,,fulltext_parsed
+PMC4337726,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4337726/fullTextXML,0,200,application/xml,207761,,,fulltext_parsed
+PMC2887387,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2887387/fullTextXML,0,404,,0,,,http_404
+PMC2887387,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2887387/fullTextXML,1,404,,0,,,http_404
+PMC2887387,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2887387/fullTextXML,2,404,,0,,,http_404
+PMC2887387,ncbi_pmc,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi,0,200,text/xml; charset=UTF-8,73017,,,fulltext_parsed
+PMC11102876,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11102876/fullTextXML,0,200,application/xml,29079,,,fulltext_parsed
+PMC6500003,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6500003/fullTextXML,0,200,application/xml,54119,,,fulltext_parsed
+PMC11251299,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11251299/fullTextXML,0,200,application/xml,152804,,,fulltext_parsed

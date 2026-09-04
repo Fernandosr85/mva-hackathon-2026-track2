@@ -1,0 +1,18 @@
+# Local operator secrets - never committed
+PROBAND_TOKENS_LOCAL*
+*_local.py
+.env
+
+# Controlled data - never committed under any circumstances
+*.vcf
+*.vcf.gz
+*.tbi
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+*.docx
+panel_variants.tsv
+
+# Notebook outputs
+.ipynb_checkpoints/

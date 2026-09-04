@@ -1,0 +1,20 @@
+# Frozen artefacts: byte-exact, never line-ending-converted.
+# core.autocrlf=true on Windows would rewrite these on checkout and break every
+# declared SHA-256, including for the person who wrote them.
+#
+# The catch-all below is deliberate. An earlier version of this file listed
+# extensions only, and silently missed LICENSE: it has no extension, so no
+# *.ext pattern matched it. A clean clone rewrote it to CRLF and its declared
+# digest failed -- 28/29 instead of 29/29. Matching every path means a new
+# artefact cannot be missed by omission rather than by decision.
+*               -text
+
+# Kept explicit so the intent survives if the catch-all is ever narrowed.
+LICENSE         -text
+*.md            -text
+*.ipynb         -text
+*.json          -text
+*.jsonl         -text
+*.csv           -text
+*.txt           -text
+*.xlsx          binary

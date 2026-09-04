@@ -1,0 +1,76 @@
+{
+  "verifier_logic_sha256": "489e04ad03f2d74b6932f4780d49a8896041e3c33e40d6e7f9efd35c108c7536",
+  "retrieval_policy_sha256": "a4c1597f887c91d5c6cd0671d5084af897aed0104e48272a06822ee8df41a1e7",
+  "run_environment_sha256": "e65d3dd52b8dbbbe46a01bad15a9d234f2d3414b549f9eb167bfe2c19e6c3cf2",
+  "mechanical_cases_sha256": "d83ef52412db4f58f50ab2bbe4385f5ecf9c54c93332614a941329faa7a7f7ca",
+  "semantic_cases_sha256": null,
+  "n_regression": 25,
+  "n_prospective": 0,
+  "run_date": "2026-09-04",
+  "summary": [
+    {
+      "category": "supported",
+      "n_run": 10,
+      "detected": 10,
+      "criterion_threshold": 10,
+      "falsification_floor": 10,
+      "verdict": "met",
+      "note": "deterministic: claim == span. Below 10/10 is a bug."
+    },
+    {
+      "category": "wrong_source",
+      "n_run": 5,
+      "detected": 5,
+      "criterion_threshold": 4,
+      "falsification_floor": 2,
+      "verdict": "met",
+      "note": "detection is axis C/D, not axis A"
+    },
+    {
+      "category": "verb_inflation",
+      "n_run": 5,
+      "detected": 5,
+      "criterion_threshold": 5,
+      "falsification_floor": 3,
+      "verdict": "met",
+      "note": "generator validates every mutation raises the tier"
+    },
+    {
+      "category": "entity_swap",
+      "n_run": 5,
+      "detected": 0,
+      "criterion_threshold": null,
+      "falsification_floor": null,
+      "verdict": "diagnostic",
+      "note": "registered near-zero: no claim<->span entailment check. Report attributable detection, not raw non-grounded output."
+    },
+    {
+      "category": "polarity_simple",
+      "n_run": 0,
+      "detected": null,
+      "criterion_threshold": 3,
+      "falsification_floor": null,
+      "verdict": "not_run",
+      "note": "sentence-scoped negation; simple flips detectable"
+    },
+    {
+      "category": "polarity_scoped",
+      "n_run": 0,
+      "detected": null,
+      "criterion_threshold": null,
+      "falsification_floor": null,
+      "verdict": "not_run",
+      "note": "registered to fail: no scope model"
+    },
+    {
+      "category": "nominal_inflation",
+      "n_run": 0,
+      "detected": null,
+      "criterion_threshold": null,
+      "falsification_floor": null,
+      "verdict": "not_run",
+      "note": "registered near-zero: tier-0 claims cannot exceed a hedged source"
+    }
+  ],
+  "note": "Regression outcomes were observed before the v3 preregistration was written and are not prospective validation. Diagnostic categories were registered to fail before the cases existed."
+}

@@ -1,0 +1,644 @@
+{
+ "pmcid": "PMC11251299",
+ "xml_sha256": "0eb54e0f87ad100d62da9321097110e44f03f94499d0ec7e5eed6f3d1f7b0684",
+ "provider": "europepmc",
+ "paragraphs": [
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p1",
+   "text": "Prostate cancer (PrCa) is the second most frequently diagnosed cancer and the fifth leading cause of male cancer deaths worldwide [ 1 ]. Familial aggregation, Hereditary Breast and Ovarian Cancer Syndrome, and Lynch Syndrome are among the most important risk factors for PrCa development, in addition to age, race, ethnicity, and environmental factors. Nevertheless, little is known about the genetic determinants that underlie PrCa development in patients with early-onset and/or familial aggregation of the disease [hereafter referred to as HPC (hereditary prostate cancer) cases] [ 2 ]. In fact, previous screenings in our series of 462 HPC cases revealed that &lt; 5% of the patients are carriers of variants in the DNA damage response or HOXB13 genes known to be associated with PrCa predisposition [ 3 – 5 ]). As such, new strategies are required to unveil the heterogeneous genetic components underlying hereditary PrCa development.",
+   "text_sha256": "7ebfc4239dc79fb04ea21fe38a4381b2621627d4930dd049a3d5cc8967114a82"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p2",
+   "text": "Aiming to provide new insights into the missing heritability of PrCa, we previously unveiled CEP57 as a potential PrCa predisposing gene [ 5 ]. Biallelic deleterious variants in CEP57 were described in 2011 as a new cause of Mosaic Variegated Aneuploidy (MVA), leading to the classification of the MVA2 syndrome, which contrasts with the MVA1 syndrome, caused by biallelic variants in the BUB1B gene. Although aneuploidy is a known cancer hallmark, there are no reports of cancer development in MVA2 patients, with only thirteen cases reported to date [ 6 ]. For MVA1 syndrome, the frequency of cancers (mostly in childhood) is not higher than 40% [ 7 ], eventually biased by the high rates of early mortality. Although scarce, carriers of BUB1B heterozygous deleterious variants have been reported in some cancer patient cohorts, namely, early-onset colorectal cancer [ 8 ], familial pancreatic cancer [ 9 ], and cutaneous melanoma with multiple primary carcinomas [ 10 ]. Nevertheless, the role of BUB1B as a cancer-predisposing gene is not yet clarified.",
+   "text_sha256": "85ae94e30f03affe4d76dd48699ca1171346685b3f7832b269d8bd3088becdd3"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p3",
+   "text": "BubR1 (Budding uninhibited by benzimidazole-related 1), encoded by the BUB1B gene, is an essential component of the Spindle Assembly Checkpoint (SAC), a surveillance mechanism that prevents persistent chromosome missegregation (defined as Chromosomal Instability or CIN) and aneuploidy [ 11 , 12 ]. SAC function relies on the proper assembly of a mitotic checkpoint complex (MCC) catalyzed at unattached kinetochores (KTs). The MCC is composed of Mad2, Bub3, BubR1, and Cdc20, and acts by inhibiting APC/C (anaphase promoting complex/cyclosome) activation, which is essential for mitotic exit [ 13 ]. Several studies have shown that partial reduction of the MCC is sufficient to severely impair SAC signaling leading to chromosome segregation fidelity defects, aneuploidy and CIN, hallmarks of cancer [ 14 , 15 ]. MVA1 syndrome and the Premature Chromatid Separation (PCS) trait, caused by biallelic and monoallelic BUB1B variants, respectively, are the strongest evidence for a causal effect of CIN in cancer development arising from SAC defects [ 16 – 19 ]. However, solid and mechanistic evidence establishing a link between specific BUB1B monoallelic variants and cancer predisposition are lacking. Additionally, considering the association between CIN levels and the response to taxane-based chemotherapeutic drugs [ 20 , 21 ], the identification of carriers of deleterious BUB1B variants may also have significant implications for treatment decision-making.",
+   "text_sha256": "5715bff328b9b2d92bfb7cb3180810c04f927d7ba027f7c15b3a66d23b3e6315"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p4",
+   "text": "In this work, we aimed to assess the frequency of carriers of germline variants in BUB1B among patients with criteria for hereditary PrCa and to clarify the biological mechanisms by which BUB1B variants might trigger carcinogenesis in human cells, as well as to evaluate their possible therapeutic implications. By combining in vitro, ex vivo and in silico approaches, we show that rare BUB1B variants are prevalent in early-onset/familial PrCa and in other cancer syndromes, and trigger oncogenic transformation by destabilizing BubR1, leading to PCS and CIN, and, consequently, taxane-resistant proliferation. Altogether, our results provide novel insights into the underlying mechanisms of (prostate) carcinogenesis and highlight BUB1B gene in the roadmap of genetic counselling and precision medicine.",
+   "text_sha256": "82278569add663f59386a6baf3227a28c604f04f2c54703a577b92ad1d5ee0b8"
+  },
+  {
+   "section": "HPC samples",
+   "section_index": 3,
+   "paragraph_id": "HPC samples#p1",
+   "text": "This study used germline DNA from 462 index cases of early-onset/familial PrCa (HPC) cases, previously recruited [ 4 ]. The patients were recruited based on two criteria: early-onset disease, with PrCa diagnosis before the age of 56, and/or familial/hereditary PrCa, with more than one case with PrCa and at least one of them diagnosed before the age of 66. Of the 462 HPC cases, 240 (51.9%) fulfilled the early-onset disease criterion, and 311 (67.3%) fulfilled the family history criterion, with 89 (19.3%) fulfilling both criteria. Demographic and clinicopathological characteristics of all the carriers are listed in Table S1.",
+   "text_sha256": "671593db90379ed3bdf7a4dadd2c9e955af62657bed490864358d9f405efb258"
+  },
+  {
+   "section": "Targeted next-generation sequencing (T-NGS)",
+   "section_index": 4,
+   "paragraph_id": "Targeted next-generation sequencing (T-NGS)#p1",
+   "text": "We used a customized gene panel designed with Agilent SureDesign (Agilent Technologies, Santa Clara, CA, USA) to sequence germline DNA from the index patients of all 462 PrCa cases. The panel covered, among other PrCa genes under investigation, the coding and splicing regions of BUB1B ( NM_001211.5 ). Capture and sequencing, data processing, variant annotation, and prioritization were performed as previously described [ 22 ]. Detailed information is described in Supplementary Methods.",
+   "text_sha256": "fc16625aac6afd287108986d56ac785f8e84ff42ae4387a4b930c798d185d3c2"
+  },
+  {
+   "section": "Dataset of patients tested for other hereditary cancer syndromes",
+   "section_index": 5,
+   "paragraph_id": "Dataset of patients tested for other hereditary cancer syndromes#p1",
+   "text": "To gain insights into the possible pan -cancer role of pathogenic/likely pathogenic variants in BUB1B , we searched for BUB1B carriers among 1,416 cancer patients referred for molecular diagnosis of multiple inherited cancer syndromes at the Department of Genetics of IPO Porto, already screened with the TruSight Cancer Panel v.1 (Illumina). Variant annotation and filtering were performed as described for the custom T-NGS panel mentioned above and detailed in Supplementary Methods.",
+   "text_sha256": "68049f51998c6e96964cc9abd8348eace4453ba419cf10a25a4669e03abc930a"
+  },
+  {
+   "section": "Control samples",
+   "section_index": 6,
+   "paragraph_id": "Control samples#p1",
+   "text": "To estimate the risk between the carrier status for the c.1171_1173del variant and PrCa development, we used germline DNA from 459 healthy male individuals (mean age 48.3 years; SD ± 10.2 years) as control samples, including 288 blood donors from the Portuguese Oncology Institute of Porto with no personal history of cancer at the time of blood collection and 171 healthy relatives with negative predictive genetic testing (each from independent families). To estimate the global risk for cancer development, germline DNA from 416 healthy females (mean age 48.6 years; SD ± 9.7 years) was also used, which included 243 blood donors and 173 healthy relatives with negative predictive genetic testing.",
+   "text_sha256": "133adbeaf822758fe369e2d4f2318e2b70ec29c6ce924d28e86452ea39c10fbf"
+  },
+  {
+   "section": "Control samples",
+   "section_index": 6,
+   "paragraph_id": "Control samples#p2",
+   "text": "To assess the basal levels of the PCS trait in our population, we performed PCS on normal lymphocyte metaphase spreads of ten age-matched healthy males aged between 42 and 78 years (mean age 52.6 years; SD ± 10.7 years), specifically recruited for this purpose, under signed informed consent.",
+   "text_sha256": "c65d551f9d7ae9b2575f48a572ad44162e8e7a4b5195b50ddf86a7df42ae8458"
+  },
+  {
+   "section": "KASP genotyping",
+   "section_index": 7,
+   "paragraph_id": "KASP genotyping#p1",
+   "text": "Kompetitive Allele Specific PCR (KASP) genotyping, with variant-specific KASP probes, was performed according to the manufacturer’s instructions. Assay primers (Metabion, Köln, Germany) summarized in Table S2 were designed using the Primer-BLAST design tool from the National Center for Biotechnology Information (NCBI) [ 23 ], and the PCRs were run on a LightCycler 480 Real-Time instrument (Roche Life Sciences, Basel, Switzerland). For data analysis, LightCycler 480 Software 1.5.0 was used.",
+   "text_sha256": "6dab4bbe2b0de3a6ac16c90a43b9eff82eff1623617d9c7a38e04956c140490d"
+  },
+  {
+   "section": "Haplotype analyses",
+   "section_index": 8,
+   "paragraph_id": "Haplotype analyses#p1",
+   "text": "The T-NGS data were phased using BEAGLE 4.1 [ 24 ], and IBD haplotypes were determined using the BEAGLE Refined IBD algorithm [ 25 ]. The lengths of the shared haplotype segments were estimated by the distance between the last two shared markers flanking the variants. A similar IBD and haplotype approach was applied to the high-density SNP genotype data from the Portuguese early-onset/familial PrCa sample collection (374 PrCa cases and 180 controls) obtained with the Infinium OncoArray-500 K BeadChip (Illumina) as part of the PRACTICAL consortium, as previously described [ 26 ].",
+   "text_sha256": "3f1c43d379ddd7103b79cc028214442fe67c0afb7f780595d5eb50d60cd81923"
+  },
+  {
+   "section": "Haplotype analyses",
+   "section_index": 8,
+   "paragraph_id": "Haplotype analyses#p2",
+   "text": "Microsatellite haplotype analysis was performed using nine polymorphic microsatellite markers flanking the gene, namely, D15S118, D15S1012, D15S1044, D15S146, D15S214, TR20GT, D15S968, AFM196XB8, and D15S781. A total of seven probands carrying the BUB1B c.1171_1173del variant were genotyped, including all five HPC patients, the two additional carrier patients found among the 1,416 screened for multiple hereditary cancer syndromes (Table 2 ), and seven unaffected family members. Primers were designed using the Primer-BLAST tool [ 23 ] (Table S2) and acquired from Metabion. All markers were assayed by PCR using fluorescently end-labeled primers, and PCR products were run on a 3500 Genetic Analyzer together with the fluorescence-labeled DNA fragment size standard 600-LIZ (Thermo Fisher Scientific, Waltham, MA, USA). Haplotype construction was performed manually based on the genotypes obtained from probands and family members.",
+   "text_sha256": "e1c5dd1f155783edf704eb5989287cad614de5d7c9e24bba7cedeebb40ed1d61"
+  },
+  {
+   "section": "Next-generation DNA and RNA sequencing of FFPE tumor samples",
+   "section_index": 9,
+   "paragraph_id": "Next-generation DNA and RNA sequencing of FFPE tumor samples#p1",
+   "text": "To assess the impact of BUB1B germline variants on BUB1B mRNA expression and transcriptomic profiles in the corresponding prostate carcinomas, available prostate tissue samples from carriers were submitted to RNA sequencing. For this purpose, matched tumor and normal RNA were extracted from ~ 5 μm sections of formalin-fixed paraffin-embedded (FFPE) prostate tissues after deparaffinization using xylene and ethanol, according to the recommendations of the High Pure FFPET RNA Isolation Kit (Roche Life Sciences). For each library preparation, 100 ng of total RNA was used as input for the TruSeq™ RNA Exome (Illumina) protocol, according to the manufacturer’s instructions. Libraries were sequenced on an Illumina NextSeq 500 using the NextSeq High Output v2.5 kit using the pair-end run mode with a run setup of 2 × 76 bps. Data was processed for both transcript expression and variant calling, as described in Supplementary Methods.",
+   "text_sha256": "9422177ba548d75692d025d7cd59c794bfc62c9dcda09e96d21800a999b9a948"
+  },
+  {
+   "section": "Next-generation DNA and RNA sequencing of FFPE tumor samples",
+   "section_index": 9,
+   "paragraph_id": "Next-generation DNA and RNA sequencing of FFPE tumor samples#p2",
+   "text": "To look for a somatic “second hit” in BUB1B in the tumors of HPC patients carrying germline variants, DNA was extracted from ~ 5 μm sections of FFPE tumor tissues using the Cobas® DNA Sample Preparation Kit (Roche Life Sciences) after deparaffinization with xylene and ethanol, according to the manufacturer’s recommendations. A T-NGS custom panel covering, among other genes, the coding and splicing regions of BUB1B ( NM_001211.5 ), designed with Agilent SureDesign, was used. Capture, sequencing, data processing, and variant annotation were performed as described for germline DNA.",
+   "text_sha256": "ad4012da267e2d21f09415520245a72fde94cd798237187700e778776c62359d"
+  },
+  {
+   "section": "Generation of prostate in vitro cell models carrying the BUB1B variant c.1171_1173del",
+   "section_index": 10,
+   "paragraph_id": "Generation of prostate in vitro cell models carrying the BUB1B variant c.1171_1173del#p1",
+   "text": "The human non-tumorigenic prostate-derived cells RWPE-1 were kindly provided by Prof. Margarida Fardilha (University of Aveiro, Portugal). Wild-type RWPE-1 and derived monoclonal cell populations were cultured in sterile conditions, at 37ºC, 5% CO 2 , and a humidified atmosphere, in Kerotinocyte Serum-Free (KSF) Medium (Gibco) supplemented with L-glutamine, 0.005 ng/µL Human Recombinant Epidermal Growth Factor (EGF), and 50 ng/µL of Bovine Pituitary Extract (BPE), and 1% penicillin–streptomycin (Gibco).",
+   "text_sha256": "7b33d887880fa4be5e62920ffc1382fd2ff870c67b721d8bf62452fdf119ed87"
+  },
+  {
+   "section": "Generation of prostate in vitro cell models carrying the BUB1B variant c.1171_1173del",
+   "section_index": 10,
+   "paragraph_id": "Generation of prostate in vitro cell models carrying the BUB1B variant c.1171_1173del#p2",
+   "text": "To induce specific editing of the BUB1B gene in RWPE-1 cells, we used the Alt-R CRISPR/Cas9 System from Integrated DNA Technologies (IDT, Coralville, IA, USA) following the manufacturer’s instructions. Among 153 isolated clones, gene-editing leading to the presence of the recurrent BUB1B variant c.1171_1173del was observed in four independent clones, in which gene-editing also led to the occurrence of a second in-frame variant (c.1133_1156del) in the other allele, predicted to lead to loss of amino acids from Proline 378 to Histidine 385 [p.(Pro378_His385del)]. No heterozygous clones with monoallelic gene-editing for the c.1171_1173del variant were found. Thus, we randomly selected two of the four clonal populations with the same genotype (BubR1 Δ391/Δ378−385 ) – named C1 and C2 – for further phenotypic evaluation. Detailed information is described in Supplementary Methods.",
+   "text_sha256": "3ada92b3e8758f35592917897b7507cd8baaf01f113f45b3ce3d1e140f9037ec"
+  },
+  {
+   "section": "Sanger sequencing",
+   "section_index": 11,
+   "paragraph_id": "Sanger sequencing#p1",
+   "text": "For Sanger sequencing, monoclonal cell populations were lysed directly in the well of a 96-well plate with 10 µL of reaction buffer mixture of the Xpert directXtract Lysis Buffer (GRiSP, Porto, Portugal) after a D-PBS wash (Gibco, Thermo Fisher Scientific). Cell lysates were incubated at 75ºC for 5 min, followed by heat-inactivation at 95ºC for 10 min. The cell lysate was diluted 5 × for PCR amplification of the BUB1B in-frame deletion, as previously described [ 5 ]. Specific primers were designed using Primer-BLAST [ 23 ] (Table S2) and acquired from Metabion. The PCR products were purified with Exo/SAP Go (GRiSP) and forwarded for sequencing PCR using the BigDye Terminator v3.1 Cycle Sequencing Kit (Thermo Fisher Scientific), according to the manufacturers’ instructions. Samples were run in a 3500 Genetic Analyzer (Thermo Fisher Scientific).",
+   "text_sha256": "497878e44bb25108d7f2c21da4c86773f4dfc9fd463c25491e62374f3473c8cb"
+  },
+  {
+   "section": "Western blot",
+   "section_index": 12,
+   "paragraph_id": "Western blot#p1",
+   "text": "To assess steady-state BubR1 expression levels, total protein extracts were obtained from 90% confluent cells. Briefly, adherent cells were washed twice with ice-cold D-PBS and scrapped with ice-cold lysis buffer (50 mM Tris HCl, pH 7.5, 150 mM NaCl, and 0.1% NP-40). After incubation on ice for 15 min, soluble fractions were collected by centrifugation at 13,000 rcf for 30 min.",
+   "text_sha256": "f1a632cbe173e6763621ea8851e508b00507dc675bbaa74a2f1008f0ec76e430"
+  },
+  {
+   "section": "Western blot",
+   "section_index": 12,
+   "paragraph_id": "Western blot#p2",
+   "text": "To obtain mitotic extracts, 90% confluent cells in T75 flasks were synchronized with 0.5 µM nocodazole. Mitotic cells were harvested by shake-off and centrifugation at 1200 rpm for 5 min. Cell pellets were washed once with D-PBS and resuspended in ice-cold lysis buffer (50 mM Tris HCl, pH 7.4, 150 mM NaCl, 1 mM EDTA, 1 mM EGTA, 0.5% NP-40, and 0.5% Triton X-100) supplemented with a cocktail of protease inhibitors (Roche Life Sciences). Proteins (50 µg) were separated in a 10% SDS-PAGE system and transferred to a nitrocellulose membrane using the Trans-Blot Turbo Transfer System (Bio-Rad Laboratories, Hercules, CA, USA). BubR1, Bub3, Cdc20 and β-actin were probed using the following antibodies: rabbit anti-BubR1 (1:1,000; ab70544, Abcam, Cambridge, UK), anti-Bub3 (1:2,000; 27,073–1-AP, Proteintech, Rosemont, IL, USA), mouse anti-cdc20 (1:250; sc-5296, Santa Cruz Biotechnology, Santa Cruz, CA, USA), and anti-β-actin antibody (1:10,000; A1978, Sigma-Aldrich). Anti-rabbit (1:10 000) and anti-mouse (1:2,500) HRP-conjugated secondary antibodies (Sigma-Aldrich and Bio-Rad Laboratories, respectively) were visualized using Clarity Western ECL Substrate (Bio-Rad Laboratories).",
+   "text_sha256": "ad374761cd37164a3199bdfb2d156e9a579681aa3b3357ece232b16767e80bb8"
+  },
+  {
+   "section": "Cycloheximide (CHX) chase assay",
+   "section_index": 13,
+   "paragraph_id": "Cycloheximide (CHX) chase assay#p1",
+   "text": "Cells at 80–90% confluence in T25 flasks were treated with 20ug/mL of cycloheximide (Sigma-Aldrich; C4859) without medium change. At different time points (0 h, 4 h, 8 h and 16 h), total protein extracts were obtained and analyzed by western blot, as described above. Two independent experiments were performed for each clonal cell line paired with WT cells. Images were acquired in the ChemiDoc™ XRS System and data quantified in ImageJ.",
+   "text_sha256": "20168e16cb54a88de4aa590ce1a25c570c3dad1a5f41eba50fb8d3e048d59153"
+  },
+  {
+   "section": "Quantitative PCR (qPCR)",
+   "section_index": 14,
+   "paragraph_id": "Quantitative PCR (qPCR)#p1",
+   "text": "To evaluate the expression levels of BUB1B in the gene-edited cell line models and WT cells, total RNA was extracted from each cell population using the RNEasy Mini Kit (QIAGEN, Hilden, Germany), and cDNA was synthesized using the H-minus RevertAid cDNA synthesis kit (Fermentas, part of Thermo Fisher Scientific) with oligo-dT primers, according to the manufacturers’ protocols. Primers and probes (TaqMan) for BUB1B were designed using Primer3 software (v4.1, https://primer3.ut.ee ) and acquired from Metabion (Martinsried, Germany) (Table S2). The beta-glucuronidase ( GUSB ) housekeeping gene was used as an endogenous control for normalization of the expression levels, and the primers/probe mix was acquired as a pre-developed TaqMan Gene Expression Assay from Applied Biosystems (part of Thermo Fisher Scientific). Relative expression levels were obtained by calibrating GUSB normalized BUB1B expression values from each population for the expression levels of the WT control population.",
+   "text_sha256": "8ef1a61464fa16d32d36311602ba4cad872a6ab5c728e6ff4467c9ba7561a857"
+  },
+  {
+   "section": "Proliferation and apoptosis assays",
+   "section_index": 15,
+   "paragraph_id": "Proliferation and apoptosis assays#p1",
+   "text": "Cellular proliferation/viability and apoptosis levels were evaluated with MTT (Sigma-Aldrich) and APOPercentage (Biocolor, Carrickfergus, UK) colorimetric assays, respectively, as previously described [ 27 , 28 ]. Growth rate (GR) was calculated from the absorbance values obtained with the MTT assay using the formula GR = (T96-T0)/T0. To evaluate Taxol growth inhibition, complete growth medium containing 10 nM Taxol or an equivalent volume of the drug vehicle (DMSO) was added to cells at T0 (h), and the MTT assay was evaluated at T96 (h). For each cell population, the percentage of growth inhibition was calculated using the formula % Inhibition = 100x [1- (T96-T0) Taxol /(T96-T0) Vehicle ], and the percentage of apoptosis was obtained by correcting apoptotic cells to the “total cells” (sum of viable and apoptotic cells) at T96 (h). Statistical data was obtained from four independent experiments.",
+   "text_sha256": "22c997b4389e7564b5d6cff5a0d60773faf82b63b5c370657a7cb171d14e35b9"
+  },
+  {
+   "section": "Time-lapse microscopy",
+   "section_index": 16,
+   "paragraph_id": "Time-lapse microscopy#p1",
+   "text": "Live cell analysis was performed under conditions of mitotic arrest generated by persistent unattached KTs using 0.5 µM nocodazole (Sigma-Aldrich) for 16 h. Mitotic controls and BUB1B -edited cell clones were imaged by phase-contrast microscopy every 20 min for 36 h using an IN Cell Analyzer 2000 microscope (GE Healthcare, CH, IL, USA) at 37 °C in complete KSF medium. Image processing and quantification were performed in ImageJ.",
+   "text_sha256": "0b9d964d536d799d4a01a6b3a1f465a0507c55e002c86f76fc1bc13b6a3d5ee3"
+  },
+  {
+   "section": "Premature Chromatid Separation (PCS) analysis",
+   "section_index": 17,
+   "paragraph_id": "Premature Chromatid Separation (PCS) analysis#p1",
+   "text": "Peripheral blood samples were cultured for 72 h in RPMI 1640 medium with GlutaMAX-I (Gibco) supplemented with 20% fetal bovine serum (Gibco) and stimulated with Phytohaemagglutinin-M (Biological Industries, Israel). Colcemid™ (100 ng/mL, Gibco) was added 90 min before cell harvesting by trypsinization and cells were processed for G-banding with Leishman staining, according to standard protocols. The analysis of PCS in patients HPC343 and HPC369 carrying missense variants was not performed due to the absence of biological material.",
+   "text_sha256": "d399455d25d0322a0b04ca637a607360413190989d59133052973ca8da74df43"
+  },
+  {
+   "section": "Premature Chromatid Separation (PCS) analysis",
+   "section_index": 17,
+   "paragraph_id": "Premature Chromatid Separation (PCS) analysis#p2",
+   "text": "For analysis of PCS levels in cell lines, cells at 90% confluence in T75 flasks were Colcemid™-synchronized for 16 h before harvesting and G-banding processing.",
+   "text_sha256": "f5695b8d22d4c3e503587d9bf042ebef6bd2763f87781973bed0879a993630ef"
+  },
+  {
+   "section": "Premature Chromatid Separation (PCS) analysis",
+   "section_index": 17,
+   "paragraph_id": "Premature Chromatid Separation (PCS) analysis#p3",
+   "text": "Automatic capture of metaphases from each case was performed using the microscope slide scanning system GSL-120 (CytoVision version 7.4; Leica Biosystems, Baden-Wurttemberg, Germany). The percentage of metaphases with PCS, corresponding to cells with separate and splayed chromatids with discernible centromeres, involving all or most chromosomes of a metaphase cell, was quantified manually by a certified cytogeneticist.",
+   "text_sha256": "f195c8b70fbd9b0b3b92b083f7c8d447b9796439dc860d6cfd657ddc5517de8c"
+  },
+  {
+   "section": "High-throughput screening of lagging chromosomes",
+   "section_index": 18,
+   "paragraph_id": "High-throughput screening of lagging chromosomes#p1",
+   "text": "Quantification of lagging chromosomes was performed using 50–500 images of contiguous fields acquired in an IN Cell Analyzer 2000 microscope (GE Healthcare, CH, IL, USA) with a Nikon 40 × /0.95 NA Plan Fluor objective (binning 2 × 2) using a large chip CCD Camera (CoolSNAP K4) with a pixel array of 1,024 × 1,024 (2.7027 pixel/µm resolution), as previously described [ 29 ]. All early to late anaphase figures were classified regarding the presence or absence of lagging chromosomes. Any DAPI-positive material between the two chromosome masses, but distinguishably separated from them, was counted as lagging chromosomes. DNA bridges were excluded from this analysis.",
+   "text_sha256": "c5dc5ab113553db8dd06df8c82da0e0d94bea4dfc482669e3c19745f398db563"
+  },
+  {
+   "section": "Immunofluorescence",
+   "section_index": 19,
+   "paragraph_id": "Immunofluorescence#p1",
+   "text": "RWPE-1 cells were fixed with 4% paraformaldehyde in PBS (Electron Microscopy Sciences) for 10 min and permeabilized with 0.5% Triton X-100 (Sigma-Aldrich) for another 5 min. BubR1, Cdc20 and ACA were immunostained using the following antibodies: rabbit anti-BubR1 1:1,000; ab70544, Abcam, Cambridge, UK, mouse anti-cdc20 (1:100; sc-5296, Santa Cruz Biotechnology, Santa Cruz, CA, USA), and anti-centromere antibodies (ACA, 1:5,000; kind gift from B. Earnshaw, Welcome Trust Centre for Cell Biology, University of Edinburgh, Edinburgh, UK). Alexa Fluor 488, 568 and 647 (1:1000, Themofisher) were used as secondary antibodies, and DNA was counterstained with 1 µg/ml DAPI (Sigma-Aldrich).",
+   "text_sha256": "6113e246615a74b7ce27786643abad536b3343e458f4b44595717f39965e970c"
+  },
+  {
+   "section": "Quantification of fluorescence intensity at the kinetochores",
+   "section_index": 20,
+   "paragraph_id": "Quantification of fluorescence intensity at the kinetochores#p1",
+   "text": "The fluorescence intensity signal of BubR1 and Cdc20 was measured directly at KTs in a circular ROI (region of interest) using ImageJ and normalized to the intensity signal of ACA in the same ROI. Background fluorescence was measured outside the ROI and subtracted from each KT. The mean values of all quantified KTs quantified were plotted in a scattered dot plot.",
+   "text_sha256": "6106fc4d4fc31e86cb66bf7fa146c738100b485c621ee3aae1db3752e8bbe170"
+  },
+  {
+   "section": "Computational analysis of BubR1 variants",
+   "section_index": 21,
+   "paragraph_id": "Computational analysis of BubR1 variants#p1",
+   "text": "Because there is no experimental structure of the human mitotic checkpoint serine/threonine-protein kinase BubR1 (EC:2.7.11.1) in the Protein Data Bank ( http://www.rcsb.org ), the molecular structure of the wild-type protein was first constructed by homology modeling using MODELLER software [ 30 ] (detailed in Supplementary Methods).",
+   "text_sha256": "edfba91283e1d970ddc59306f7af4b27593d7b960e7f3564fec30f21636cd3e4"
+  },
+  {
+   "section": "Computational analysis of BubR1 variants",
+   "section_index": 21,
+   "paragraph_id": "Computational analysis of BubR1 variants#p2",
+   "text": "The molecular dynamics simulations were performed to assess the molecular dynamics of the BubR1 proteins in explicit solvent at atomistic resolution. The Amber 18.0 simulation package (parm14SB force field) was used to carry out the optimizations and MD simulations (detailed in Supplementary Methods).",
+   "text_sha256": "10bb04feb8fcd7d4a4624704b42a2afe91a3385d65edd2e8a415a4ae025da15d"
+  },
+  {
+   "section": "Computational analysis of BubR1 variants",
+   "section_index": 21,
+   "paragraph_id": "Computational analysis of BubR1 variants#p3",
+   "text": "The bioinformatic tools MUpro [ 31 ] and I-Mutant 2.0 [ 32 ] were used to predict the effect of the currently studied variants (BubR1 R120Q , BubR1 I147T , BubR1 R244C , BubR1 Δ391 and BubR1 R416Q ) and the control variants (BubR1 F175G , BubR1 F175L , BubR1 E413K ) on the structural stability of the protein. Starting from the amino acid sequence data, both web servers use a set of machine learning methods to automatically predict protein stability changes upon single-site mutations. These indicators provide fast, quite accurate (77–80% correct previsions) and quantitative previsions of the effects of the variants.",
+   "text_sha256": "53a72af428057d626e8094f878c855dbb84dc5b1b5a356ba7a655d42931ca95c"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p1",
+   "text": "The frequency of BUB1B variants in our 462 HPC cases was assessed by NGS using a customized targeted gene panel (T-NGS). Overall, six patients were carriers of truncating variants (Table 1 , Fig. 1 ), representing 1.3% of the full HPC series and 1.7% of the patients with early-onset disease (&lt; 56 years at diagnosis). The variant c.1171_1173del, p.(Glu391del), was identified in five patients (Fig. 1 A) and the frameshift variant c.2481del, p.(Gln827HisfsTer13), was found in one patient (Fig. 1 B). Three of the five families with the recurrent in-frame variant fulfilled both the early-onset and family history criteria (HPC119, HPC154 and HPC262), representing 3.4% of 89 such families. Segregation with the disease was performed in family HPC262, whose index patient had metastatic disease at diagnosis and the carrier father had two additional primary carcinomas (skin and stomach) eight years after the PrCa diagnosis. Table 1 List of BUB1B germline variants identified in HPC patients",
+   "text_sha256": "e6866c1c028e8ca948a3ab585639c476fbb75e7da8521af92359ef32284b7fb4"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p2",
+   "text": "“Age” stands for early-onset diagnosis of PrCa (&lt; 56 years) and “FH” stands for positive family history of PrCa BrCa- Breast cancer, CoCa Colon cancer, GaCa Gastric cancer, LuCa Lung cancer, PaCa Pancreatic cancer, ReCa Rectal cancer, SkCa Skin cancer",
+   "text_sha256": "a7676dbedf53f55e2d17f603c4e947f11fd2a5d3dc845c1601953434d7f0bbf1"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p3",
+   "text": "a Minor Allele Frequency (MAF) in male NFE (Non-finish European) obtained from gnomAD; NR —Not reported",
+   "text_sha256": "e8b8700d0d62c7515329b66bcf6ba6f094fef19a5345ffd7e50b20923fa32a32"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p4",
+   "text": "b at diagnosis",
+   "text_sha256": "88e48560dcf553e8ef4d1e8348dde8101c1c5a668f142e53a4bfdb261cbcbb0c"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p5",
+   "text": "c 1 st and 2 nd degree relatives",
+   "text_sha256": "e0016b4e5df71a9f85c180fe35e22bbd815181b4db9ab4e9fdfd6fa71f8fd729"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p6",
+   "text": "* Signet ring cell carcinoma",
+   "text_sha256": "b13a70f2359517e74cd08820ad62dc5237302c838e58cb30b6e56b328111ba14"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p7",
+   "text": "Profile of the genetic variation found in the BUB1B gene and flanking genomic region . A Pedigree of the patients carrying the BUB1B in-frame variant c.1171_1173del; p.(Glu391del). B Pedigree of patient HPC278 carrying the BUB1B frameshift variant c.2481del, p.(Gln827HisfsTer13). Carrier patients are labeled with a “plus” mark. Squares represent the males, circles the females and diamonds unknown gender. Deceased individuals are represented by a diagonal line through a symbol, and the affected individuals are highlighted by colored symbols. The index case is indicated by an upper left arrow, and the cancer type and age at diagnosis are indicated whenever known. C Spectrum and predicted protein consequences of germline BUB1B variants identified in HPC patients and patients fulfilling criteria for other hereditary cancers. For each variant, the full number of carrier patients is shown. The main BubR1 functional domains and known functions are highlighted. The lollipop color code indicates the patient group in which variants were identified. D Graphical representation of the 0.3 Mb core haplotype shared by the seven carriers of the BUB1B c.1171_1173del variant. The dark-green region represents the shared haplotype identified by analysis of T-NGS data, whereas the light-green region represents the haplotypes identified using the high-density SNP Oncoarray genotype data. Microsatellite analysis corroborated the IBD analysis, showing conservation of the microsatellite marker D15S214, and microsatellite variability up- and downstream of the core haplotype boundaries (markers D15S146 and DTR20GT)",
+   "text_sha256": "3cb7276c20607616d68dffc8d3ca0ab3abc7e0f1dccbbc69dde4fb5d25446536"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p8",
+   "text": "Of the 875 non-cancer controls genotyped using KASP (Kompetitive Allele-Specific PCR) technology, the variant c.1171_1173del was absent in the 459 male controls, suggesting an increased risk for PrCa development for carriers (OR = 10.98, CI: 0.61–200.39; p = 0.074). This ~ ten-fold increased risk for PrCa development is strengthened when compared with the 41 carriers among 36,058 male controls from the Non-Finish European (NFE) population (OR = 9.61, CI: 3.78–24.43; p &lt; 0.0001; gnomAD Database – https://gnomad.broadinstitute.org ). The frameshift variant c.2481del is not reported in the gnomAD database.",
+   "text_sha256": "1f9526bad7be63c84ba8aa9e9484491b410834faecbffa597823ca9b65f5001f"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p9",
+   "text": "Additionally, three patients were carriers of missense variants (Table 1 and Fig. S1), increasing the frequency of BUB1B variants to 1.9% in the whole HPC series and to 2.5% among patients with early-onset disease. Two of these variants [c.359G &gt; A, p. (Arg120Gln); and c.440 T &gt; C, p.(Ile147Thr)] are located in the tetratricopeptide (TPR) domain, while the third variant [c.1247G &gt; A, p.(Arg416Gln)], as well as the recurrent in-frame variant, is located in the Bub3 binding domain (Fig. 1 C).",
+   "text_sha256": "4a9d6aa1b6c8d2e1135a4d2b91622ce5b789b1a41c36ab337df3d532f5ad8bb0"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p10",
+   "text": "Available data from 1,416 patients screened with the TruSight Cancer Panel at the Department of Laboratory Genetics of IPO Porto for different hereditary cancer syndromes showed nine carriers of BUB1B variants (Table 2 and Fig. 1 C). The in-frame variant c.1171_1173del, p.(Glu391del), and the missense variant c.440 T &gt; C, p.(Ile147Thr), also identified in HPC patients, were present in two and three patients, respectively, thus being the most frequent BUB1B variants identified in this study. Table 2 List of BUB1B germline variants identified in non-prostate cancer patients fulfilling criteria for genetic testing",
+   "text_sha256": "5f7615638b7c537779f6229726e7996e61c2b404d01be88f918f9a939f663967"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p11",
+   "text": "BrCa Breast cancer, CoCa Colon cancer, GaCa Gastric cancer, LuCa Lung cancer, OvCa Ovarian cancer, PCC Pheochromocytoma",
+   "text_sha256": "55fb4e8673c15d324cb45dc581d299f712b7e2bb0e72bd3e59dc079badde49ce"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p12",
+   "text": "a Minor Allele Frequency (MAF) in male NFE (Non-finish European) obtained from gnomAD; NR—Not reported",
+   "text_sha256": "2c0eacb713f41d2340dd81fb99b49cad67409979a94f803e35f5ab6f8d67f46e"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p13",
+   "text": "b at diagnosis",
+   "text_sha256": "88e48560dcf553e8ef4d1e8348dde8101c1c5a668f142e53a4bfdb261cbcbb0c"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p14",
+   "text": "c 1 st and 2 nd degree relatives",
+   "text_sha256": "e0016b4e5df71a9f85c180fe35e22bbd815181b4db9ab4e9fdfd6fa71f8fd729"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p15",
+   "text": "* Signet ring cell carcinoma",
+   "text_sha256": "b13a70f2359517e74cd08820ad62dc5237302c838e58cb30b6e56b328111ba14"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p16",
+   "text": "Among the 875 non-cancer controls genotyped using KASP, the variant c.1171_1173del was found in two females, resulting in an ~ 4.8-fold increased risk for cancer development for carriers (CI: 0.92–24.71; p = 0.052).",
+   "text_sha256": "1a6a5af7ff334be825636bbc65514f68be64208d3d839dd1f3cbfd724bdbf26c"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p17",
+   "text": "Considering the high frequency of the c.1171_1173del variant in our cohorts, we investigated a potential founder effect by Identical-by-descent (IBD) analysis. Using data from the T-NGS – custom panel for HPC samples and TruSight Cancer panel for samples from patients with other cancers – a shared haplotype harboring the c.1171_1173del variant was identified among all the seven carriers/families, strongly suggesting a common founder origin (Fig. 1 D). To verify whether the shared haplotype extended beyond the BUB1B gene, we performed IBD analysis using high-density genome-wide small nucleotide polymorphism (SNP) data available for 374 of the 462 HPC cases as part of the PRACTICAL consortium [ 26 ]. IBD analysis identified a shared core haplotype of ~ 0.3 Mb flanking the variant (chr15:40,225,465–40,528,155) in the four carriers profiled, which was not conserved in the 370 non-carriers. Additionally, microsatellite analysis in all carriers and available healthy relatives (Table S3) showed phased haplotypes in two informative families [family HPC262 (Fig. S1) and the GaCa patient family (Fig. S2)], which revealed a conserved region of ~ 113 Kb, comprising the region from the marker D15S214 up to the full BUB1B gene (Table S3). This region was also conserved in patients HPC63 and HPC119, and the four remaining carriers (HPC227, HPC154, the LuCa patient, and the healthy son of patient HPC63), despite being heterozygous for the marker D15S2014, harbored the allele consistent with the conserved region. These results corroborate the IBD analysis, showing a conserved microsatellite (D15S2014) within the shared haplotype and microsatellite variability up and downstream of the core haplotype (~ 0.3 Mb) boundaries (D15S146 and DTR20GT) (Fig. 1 D), further supporting the existence of a common ancestor.",
+   "text_sha256": "004bb472c71c4c92448d7cb492f172cdac6d8f72e405f986c02a96888057b28d"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p18",
+   "text": "To determine whether the recurrent in-frame variant and the four missense variants, predicted to result in the proteins p.(Glu391del) (BubR1 Δ391 ), (p.Arg120Gln) (BubR1 R120Q ) )), p.(Ile147Thr) (BubR1 I147T ), p.(Arg244Cys) (BubR1 R244C ), and p.(Arg416Gln) (BubR1 R416Q ), respectively, may impact the structural stability of the protein, we used the bioinformatic tools Mupro [ 31 ] and I-Mutant 2.0 [ 32 ]. The predicted free energy changes of two known unstable missense variants, BubR1 E413K and BubR1 F175G [ 33 – 35 ], and the well-known stable variant BubR1 F175L [ 33 , 34 ], were used as positive and negative cut-off values for interpretation of instability effects. Both bioinformatic tools predict that BubR1 I147T greatly destabilizes the protein conformation, while the other missense variants have a rather small effect, if any (Table 3 ). Mupro also envisages that the in-frame variant BubR1 Δ391 reduces protein stability, which could then cause protein misfolding, aggregation and degradation. Table 3 Predicted effect of the different amino acid substitutions on BubR1 stability and structural protein properties",
+   "text_sha256": "dd9304bd0225f381c7cae90974c85569e92de32fb8d901c8b8c04c750bfae2fb"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p19",
+   "text": "Note: Negative/stable and positive/unstable mutant controls are colored at green and red, respectively, while differences higher than the negative control or statistically valid are highlighted in bold",
+   "text_sha256": "3b4deb3e3adf24b9c8990c34322df1b6c88d467cc42c6d7669a8988d4a684e53"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p20",
+   "text": "ΔΔG change in free energy, TPR tetratricopeptide, SASA solvent accessible surface area, RMSF root-mean-square fluctuation, NM not measured",
+   "text_sha256": "fc34462e42284b3a655ce35bfa2a25b6f45e705dfb07b551db1ec81fbaa9d4d8"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p21",
+   "text": "To provide structural details on the impact of the same variants in the BubR1 protein, we performed Molecular Dynamics (MD) simulations on explicit solvated models of BubR1. The structural analysis was focused on specific regions of the highly conserved N-terminus of BubR1, specifically, in two Lys-Glu-Asn motifs (called KEN-1 and KEN-2 boxes), which have been implicated in Cdc20 binding and are required for effective APC/C inhibition and SAC function [ 36 ]; in the tetratricopeptide (TPR) domain, which is essential for SAC function via interaction with Knl-1 [ 34 ]; and in the Bub3 binding domain (B3BD) [ 37 ]. Figure 2 A illustrates the molecular model of BubR1 WT , highlighting the TPR and B3BD regions of the four variants under study by superimposition of the various protein structures. The mutants BubR1 F175G , BubR1 F175L and BubR1 E413K were also studied both as structural controls and to validate the computational molecular model. The main structural differences observed in all mutants relative to the BubR1 WT are shown in Table 3 (detailed in Tables S4-S7 and Fig. S3). BubR1 Δ391 and BubR1 R416Q show high fluctuation in the atomic position of the TPR residues, while the B3BD region of BubR1 I147T has greater mobility than that of BubR1 WT (ΔRMSF &gt; 3 Å). Regarding the TPR region, the BubR1 F175G is known to disrupt the TPR structure and abolish the binding to Knl-1 (herein used as a positive control) [ 33 , 34 ]. As the substitution of the same amino acid by a leucine (BubR1 F175L ) maintains the interaction with Knl-1 [ 33 , 34 ], we used this mutant as a negative control. Our data indicate that the variants BubR1 Δ391 , BubR1 I147T , BubR1 R244C and BubR1 R416Q have at least two similar structural changes to the BubR1 F175G , suggestive of TPR disruption and loss of Knl-1 binding. The BubR1 Δ391 , BubR1 I147T , and BubR1 R244C also show variations in the secondary structure, indicating intrinsic disorder of this region in solution. Additionally, the BubR1 I147T loses intramolecular hydrogen bonds between the α-helices of TPR, modifying the overall conformation of TPR, which, subsequently, may also interfere with the interaction with Knl-1 (Fig. S3, detailed in Table S7). Fig. 2 Conformational BubR1 changes and MCC interactions predicted to result from non-truncating BUB1B variants. A 3D conformational structure of the BubR1 WT model showing the localization of the TPR, Loop, KEN boxes, and PK (pseudokinase) domains, as well as the residues predicted to be affected by the missense and in-frame BUB1B variants identified in this study. Changes in the conformation of the Loop and TPR domains are highlighted after the superimposition of the BubR1 WT (green) model with the BubR1 R120Q (red), BubR1 I147T (blue), BubR1 R244C (silver), BubR1 Δ391 (purple) and BubR1 R416Q (orange) models. B 3D structure of the MCC showing the interaction between BubR1 WT , Mad2, and two Cdc20 molecules, as well as the structural position of the residues predicted to be affected by the missense and in-frame BUB1B variants identified in this study ( i ). Close-up of the secondary structure of the KEN-1 motif and surrounding residues showing conformational changes leading to different residue interactions when comparing BubR1 WT ( ii ) and BubR1 Δ391 ( iii ) models",
+   "text_sha256": "04c9474066a0629945030db02522c31a16e82a5efa55ba58215800a4631ae94f"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p22",
+   "text": "Concerning the B3BD, the structural analysis was focused on the Loop (368–379 residues) because this region is a direct APC/C binder and promotes stable association of the BubR1:Bub3 proteins with the APC/C. Indeed, in vitro studies have shown that BubR1 Loop mutants have a reduced ability to inhibit the APC/C [ 35 ]. Herein, the BubR1 E413K located in the B3BD, was used as a positive control due to its known capability to prevent the Bub3 binding and disrupt SAC signaling [ 35 ]. Our results denote some similar structural changes in BubR1 I147T and BubR1 R416Q variants as the BubR1 E413K , suggesting that these mutants may have comparable effects by interfering with the BubR1:Bub3 association. Despite the proximity of the residue deleted by the in-frame variant (E391) to the Loop, BubR1 Δ391 does not significantly affect the structure of the Loop region. However, BubR1 Δ391 shows variations in the solvent exposure area and intramolecular bonds of both KEN-1 and KEN-2 residues (Fig. 2 B, Tables S4 and S7). Since KEN-1 is essential for the binding with Cdc20 and Mad2 and the KEN-2 promotes the binding of another Cdc20 [ 35 ], these modifications suggest that BubR1 Δ391 could interfere with the recognition or binding of Cdc20 and Mad2 proteins. All mutants show slight changes in the protein secondary structure, with BubR1 Δ391 , BubR1 R120Q , and BubR1 R244C being the most similar to the positive controls; however, the overall structure is still comparable to the structure of BubR1 WT .",
+   "text_sha256": "df00dfbf90a8d39d901d70e963c691e51a61a47976bcf446791f8134f0e8c34a"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p23",
+   "text": "Single nucleotide substitutions have been linked to SAC defects caused by severe or partial loss of BubR1 expression in families carrying BUB1B biallelic (MVA patients) or monoallelic variants (parents of MVA patients), respectively [ 19 ]. This observation led us to hypothesize that the monoallelic BUB1B variants found in our study could contribute to (prostate) cancer predisposition through a similar mechanism. To test this hypothesis, and considering their predicted impact on BubR1 structure in silico, we focused on the most frequent variant identified in our study – the in-frame variant c.1171_1173del, p.(Glu391del). For that purpose, we generated prostate cell models with genome editing for the c.1171_1173del variant derived from non-tumorigenic RWPE-1 cells using homology-directed repair (HDR)-mediated CRISPR/Cas9. Since we found no viable cell clones homozygous for the c.1171_1173del variant, we selected monoclonal populations exhibiting a compound heterozygous genotype containing this in-frame BUB1B variant (BubR1 Δ391/Δ378−385 ) to assess variant’s pathogenicity. Thus, in addition to c.1171_1173del, all the four clones exhibit a second in-frame variant (c.1133_1156del) with a predicted similar impact (located in BubR1 B3BD but outside the Loop region; Fig. S4), from which we selected two (named C1 and C2) to use in the following experiments.",
+   "text_sha256": "a7bea53cdce3514bfe22c3ab858ade0422345be670c24d84b61a6c2e6f7e3066"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p24",
+   "text": "Quantitative analysis of BubR1 expression both at protein and mRNA levels showed a slight decrease (20–30%) in BubR1 expression in all gene-edited cell clones compared to WT cells (Fig. 3 A, Fig. S4). To evaluate whether the established cell models could represent the biology of tumors from carriers of the BUB1B in-frame variant c.1171_1173del, we performed RNA sequencing in tumor/normal matched prostate tissues from patient HPC63, carrying the germline variant c.1171_1173del, as well as in prostate tissues from patient HPC278, carrying the frameshift variant c.2481del, and from three additional HPC patients negative for known BUB1B germline variants. As observed in our in vitro models, RNA sequencing analysis showed decreased BUB1B expression in the prostate cancer tissue relative to the normal counterpart in both BUB1B carriers, while tumor/normal matched prostate tissues from non-carriers showed an inverse pattern (Fig. 3 B). In vitro, decreased BUB1B in C1 and C2 clones led to significantly increased proliferation rates compared with WT cells (Fig. 3 C), supporting the oncogenic cancer-predisposing role of this variant. Fig. 3 Impact of in-frame deletions in BubR1 B3BD on proliferation and mitosis. A Quantification of BubR1 expression at both transcript and protein level in BubR1 WT/WT (WT) and BubR1 Δ391/Δ378−385 (C1 and C2) RWPE-1 cells by western-blot and qRT-PCR, respectively. B Normalized BUB1B expression levels in matched tumor/normal prostate tissues from HPC patients obtained by RNA sequencing. HPC63 and HPC278 are carriers of germline BUB1B variants [p.(Glu391del) and p.(Gln827HisfsTer13), respectively] and HPC64, HPC235 and HPC387 are non-carriers of known BUB1B variants. C Growth rate assessed by the MTT assay at 96 h in culture (* p &lt; 0.05; two tailed, paired t test). D Protein levels from mitotic cells collected by shake-off upon 16 h of nocodazole treatment. Cell lysates from WT and C1/C2 cell populations were immunoblotted for BubR1 (targeting B3BD), Cdc20 and Bub3. β-actin was used as a loading control. E–F Subcellular localization ( E ) and quantification ( F ) of BubR1 and Cdc20 at KT, normalized to ACA levels, upon 4 h of nocodazole treatment. Scale bars, 5 µm. The pool of three independent experiments (45–47 cells) from each cell population is shown (ns- no statistical significance ( p &gt; 0.05), * p &lt; 0.05; two tailed, unpaired t test). G-H BubR1 expression levels were assessed by western blot before (0 h) and after blocking de novo protein synthesis with cycloheximide (CHX) for 4 h, 8 h and 16 h ( G ), and quantified by densitometry analysis ( H ). Data were obtained from two independent experiments. A representative blot is shown ( G ), and differences between WT and clonal cell populations are depicted for each WT-paired clonal population after 16h of CHX treatment ( H ). The % of BubR1 expression was obtained by normalizing BubR1 levels to those of the corresponding β-actin and adjusting to the expression levels obtained before CHX treatment (at 0h). For comparison, different colored circles highlight matched clone/WT pairs from the same assay",
+   "text_sha256": "03b179ba99bad5f45266e0c70ab347fa8f5d85d92cacd18c227c3b57be7a1ce8"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p25",
+   "text": "To gain further insights into the biological mechanism underlying the oncogenic behaviour of BUB1B -edited cell clones, we performed western-blot analysis of mitotic protein extracts collected upon cell-cycle arrest with nocodazole for 16 h. In line with decreased mRNA levels, C1 and C2 clones showed a very significant decrease in BubR1 protein expression (Fig. 3 D) and a moderate and a slight decrease in Cdc20 (two isoforms) and Bub3 expression levels, respectively, suggestive of premature disassembly and degradation of the MCC components. As free MCC levels (not KT-bound) are critical for SAC signaling [ 13 ], we investigated whether the “instability” of the MCC was due to improper recruitment of BubR1 and Cdc20 to the KTs. For this purpose, we quantified the expression levels of BubR1 and Cdc20 at KTs in the absence of microtubules (unattached KTs) in randomly selected mitotic cells treated with nocodazole for 4 h. Similar expression levels were observed in edited and control cells (Figs. 3 E-F), although edited cells showed a tendency for higher expression of both BubR1 and Cdc20 at KTs, reaching statistical significance in the C2 population.",
+   "text_sha256": "95ff7a64b93d860722b2d8b5af932dc88e829e76698668425080bf2e54c4a33b"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p26",
+   "text": "To assess whether reduced BubR1 protein levels in BUB1B gene-edited cell populations may be caused by increased protein degradation, as predicted in silico, we measured the half-life of BubR1 by cycloheximide (CHX) chase in both WT and gene-edited cell clones. We consistently observed lower BubR1 levels in both C1 and C2 cell populations in every time point comparing with WT cells (Fig. 3 G and Fig. S5), which are more pronounced after 16 h of CHX treatment (Fig. 3 H). This tendency is observed within each assay, despite the variability observed when combining the two experiments. The same tendency was observed in a 3 rd independent clone with the same genotype (C3; Fig. S5).",
+   "text_sha256": "f060b622053d0eb60e88b2a98e46acc9a4a6f5c22966595e2288aea7f9d0136c"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p27",
+   "text": "These results suggest that, as predicted in silico, the recurrent BUB1B in-frame deletion c.1171_1173del (BubR1 Δ391 ) compromises the stability of the MCC but not the ability to recruit BubR1-Cdc20 to unattached KTs.",
+   "text_sha256": "c9a7b0517a272889f71ebc99d01191de52a94c638ef0c878c73b692e2a3abcea"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p28",
+   "text": "To test SAC function in our cell models, we performed a well-established assay based on the measurement of mitotic duration in the presence of persistently unattached KTs upon treatment with nocodazole. Our live-cell analysis revealed that C1 and C2 cells exit mitosis significantly earlier (11.6 ± 1.4 h and 10.8 ± 1.1 h, respectively) than WT cells (15.4 ± 1.1 h and 14.9 ± 0.7 h, respectively) (Fig. 4 A-B). Moreover, the impact of the BUB1B variants on SAC function was as severe as the acute SAC disruption obtained upon Mps1 inhibition (Fig. 4 B). Cytogenetic examination and quantification of premature chromatid separation (PCS) showed a significant increase in PCS in both BUB1B -edited clones (38–56%) compared to WT cells (32%) (Fig. 4 C-D). Similarly, HPC patients carrying the monoallelic BUB1B c.1171_1173del variant exhibited 34–54% PCS metaphases compared to 0.75–8.74% found in age-matched male controls (Table S8, Fig. 4 C). High percentages of PCS were also observed in patient HPC278, carrying the frameshift variant c.2481del, in patient HPC450, carrying the missense variant c.359G &gt; A, and in the healthy sons of patients HPC63 and HPC262, both carrying the c.1171_1173del variant (Table S8). Fig. 4 BUB1B in-frame variants in B3BD impair SAC robustness leading to PCS and Taxol-resistant chromosomal instability . A Representative images of phase contrast microscopy time-series illustrating mitotic entry (cell round-up), mitotic arrest by nocodazole treatment and mitotic exit in WT and BUB1B -edited cells (C1 and C2). Images were acquired every 20 min. Scale bar, 10 µm. Time, hr:min. B Quantification of mitotic duration of the cells represented in A. Bars indicate mean values and the error bars represent the SD from three independent experiments (* p &lt; 0.05, ** p &lt; 0.01, two tailed, unpaired t test). C Bar plot of the frequency of metaphase cells with PCS comparing BUB1B -edited and WT cells ( left ) and human blood metaphase cells in age-matched male controls compared to HPC patients carrying the BUB1B c.1171_1173del variant ( right ). Error bars represent the SD of the mean of three independent experiments (* p &lt; 0.05, **** p &lt; 0.0001, two tailed, unpaired t test). At least 100 metaphase cells were analyzed per condition. D Representative images of normal metaphase and PCS events in carriers of the BUB1B c.1171_1173del variant. E Impact on growth inhibition and apoptosis after 96 h of treatment with Taxol (10 nM; * p &lt; 0.05, ** p &lt; 0.01, **** p &lt; 0.0005, two tailed, paired t -test). F Representative images of anaphase cells immunostained with antibodies against α-tubulin and centromere proteins (ACA), depicting normal anaphase and chromosome missegregation in anaphase (lagging chromosome) highlighted by a blue arrow. DNA was counterstained with DAPI. Scale bars, 10 µm. G Quantification of the percentage of normal anaphases vs anaphases with lagging chromosomes from a pool of six independent experiments (*** p &lt; 0.001, **** p &lt; 0.0001, Chi-squared test)",
+   "text_sha256": "90cdf8bd844e9b82416ce69b5a1ffc8bf5dfb0179b6c80d9a355ac7f0111ef29"
+  },
+  {
+   "section": "Results",
+   "section_index": 22,
+   "paragraph_id": "Results#p29",
+   "text": "The efficacy of taxane-based chemotherapies, currently approved by the United States Food and Drug Administration (FDA) for the treatment of several advanced cancers, including metastatic castration-resistant prostate cancer [ 38 ], is limited by intrinsic and acquired drug resistance associated with higher CIN [ 20 , 21 ]. Therefore, we questioned whether increased PCS in BUB1B carriers would be associated with increased CIN and whether CIN levels would correlate with response to Taxol treatment. We observed a dramatic resistance to Taxol-induced growth inhibition and apoptosis in BUB1B -edited cells compared with WT cells (Fig. 4 E). Complementarily, immunofluorescence analysis revealed a significantly higher percentage of lagging chromosomes in anaphase in BUB1B -edited cells (Fig. 4 F-G). Altogether, these observations establish a link between BubR1 in-frame deletions affecting B3BD, SAC defects, CIN and Taxol resistance, sustaining the pathogenicity of the recurrent variant c.1171_1173del (BubR1 Δ391 ).",
+   "text_sha256": "ccfd70b328f22b146840c6acf285475216e1a9957d7a26f7e60889690c544da1"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 23,
+   "paragraph_id": "Discussion#p1",
+   "text": "In this work, we identified nine carriers of rare germline variants in the BUB1B gene among 462 PrCa patients fulfilling the criteria for hereditary prostate cancer. This makes BUB1B one of the most frequently mutated genes described in our HPC patients, accounting for 1.9% of the early-onset/familial PrCa patients and 2.5% of the patients with early-onset disease (diagnosis &lt; 56 years). Additionally, 0.6% of the cancer patients fulfilling the criteria for genetic testing for other hereditary cancer syndromes were also carriers of rare BUB1B germline variants, following the pan -cancer profile observed for known moderate- to high-penetrance risk genes.",
+   "text_sha256": "579bcca798688f0706963d58fbc3c4b3eea8151052fc2fd74854fcdf7b9f0631"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 23,
+   "paragraph_id": "Discussion#p2",
+   "text": "Considering the broad dissemination of NGS technology throughout genetic laboratories worldwide, the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG/AMP) have published guidelines for variant interpretation in genes associated with Mendelian disorders, narrowing the translatability of genetic findings [ 39 ]. However, in genes associated with recessive syndromes (caused by two deleterious variants), as is the case of BUB1B in MVA, the pathogenicity of monoallelic variants may be harder to clarify, since the effect of isolated variants may not reflect that of variant combination. BUB1B , however, has an advantage over other genes in this category since heterozygous BUB1B variants are associated with an autosomal dominant trait – PCS (OMIM # 176,430). In fact, fundamental studies have defined a link between loss of BubR1 expression, mitotic checkpoint defects, PCS and CIN [ 17 , 18 ]. Additionally, both truncating and non-truncating variants in BUB1B have been associated with loss of protein expression and mitotic defects, determinants of the MVA phenotype [ 19 , 40 , 41 ]. Nevertheless, despite the potential of spindle checkpoint genes as tumor suppressors and the first validation of a causal link between BUB1B variants and lung and colorectal cancer development in BubR1 ± mouse models in 2004 [ 41 ], the cancer-predisposing role of BUB1B remains largely elusive.",
+   "text_sha256": "f29969d5e272486293462244cb4da1e78b9dbb91ec9b6afa21126f57205113af"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 23,
+   "paragraph_id": "Discussion#p3",
+   "text": "Several studies have explored the functional relevance of BubR1 variants identified in MVA patients, which mainly cluster in the kinase domain (C-terminal) [ 19 , 42 ]. In our study, aside from the frameshift variant c.2481del and the splicing variant c.2009 + 1G &gt; A, the BUB1B variants identified, both in HPC patients and in patients with other cancers, cluster at or near the TPR and B3BD domains (N-terminal). Thus, we have started by investigating the potential consequences of the identified BUB1B variants at the protein level using in silico molecular modeling and molecular dynamics simulations of all non-truncating BUB1B variants, using known BubR1 mutants as controls. Our analysis shows that all the identified variants are predicted to lead to mild to severe loss of BubR1 stability and to TPR disruption, probably impairing Knl-1 binding and leading to SAC dysfunction. To validate this assumption, we focused on the most frequent variant identified in our study, and one of the two variants here described, and ever reported, to be recurrently found in cancer patients – c.1171_1173del (BubR1 ∆391 ) – representing 38.9% of all BUB1B variant carriers and 55.5% of HPC index patients who carry a BUB1B variant. Hahn et al. (2016), in an attempt to clarify the phenotypic implications of two BUB1B variants (c.1171_1173del and c.2834G &gt; A) identified in the germline of early-onset colorectal cancer cases, have induced overexpression of both mutants and WT BUB1B in HEK293 and HeLa cells and found no differences in protein expression, localization (at KTs), or Bub3 binding between the three cell models [ 8 ]. Aiming to look beyond Hahn et al. observations, we used CRISPR/Cas9 to generate clonal cell populations derived from the non-tumorigenic RWPE-1 prostate cells carrying the variant c.1171_1173del (BubR1 Δ391 ). Despite the high success rate of genomic editing by homology-directed repair (~ 26.8%; detailed in Supplementary Methods), heterozygous (BubR1 WT/Δ391 ) or homozygous (BubR1 Δ391/Δ391 ) clonal populations were not found. Instead, the four clonal populations that persisted to grow harbored a compound heterozygous genotype (BubR1 Δ391/Δ378−385 ) in which the second variant was also in-frame and localized in B3BD (c.1133_1156del). Although speculative, it is possible that, as described for other BUB1B truncating variants, the homozygosity for the c.1171_1173del, or its co-occurrence with a truncating variant, are not compatible with life, in which case a pathogenic role would be attributed to the c.1171_1173del. On the other hand, the absence of heterozygous cell populations (BubR1 WT/Δ391 ) may indicate a technical issue related with the CRISPR/Cas9 approach used. It is possible that finetuning the Cas9 activity or, alternatively, using a high fidelity Cas9 would improve monoallelic gene-editing [ 43 , 44 ]. However, considering the recessive nature of BUB1B variants and the fine regulation of BUBR1 activity, with a barely measurable phenotypic impact observed in the studied compound heterozygous cell populations (BubR1 Δ391/Δ378−385 ), it is also possible that monoallelic gene-editing would result in unperceived phenotypic changes in the timeframe of these assays.",
+   "text_sha256": "ec7f0a8568f74d6d55af63d1b0bb63d4c97384dbfd94401b6da136578491dfeb"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 23,
+   "paragraph_id": "Discussion#p4",
+   "text": "The established cell models validate the observations from Hahn et al. [ 8 ] by showing that in cells carrying the variant c.1171_1173del, both BubR1 and Cdc20 are efficiently recruited to unattached KTs, yet we further show that this is not sufficient to ensure proper SAC function and chromosome segregation fidelity, probably as a result of a decrease in both protein expression and stability of KT-independent MCC. As a consequence, BUB1B -edited cells showed an increase in both PCS and lagging chromosomes, markers of CIN [ 12 , 17 ], which correlated with decreased sensitivity to Taxol-induced growth inhibition, as observed in other cancer models [ 20 , 45 , 46 ]. Although we cannot exclude possible cumulative effects of the two in-frame variants present in our in vitro cell models, in vitro PCS levels are consistent with increased PCS levels observed in lymphocytes derived from BUB1B carriers and with the autosomal dominant effect of heterozygous BUB1B variants described for the PCS trait, strongly suggesting that the variant c.1171_1173del is sufficient to trigger oncogenic transformation. Additionally, BUB1B -edited clonal cell populations showed a partial to severe loss of BUB1B transcripts, recapitulating the observations from RNAseq analysis of tumor samples from patients carrying BUB1B variants, and also a severe loss of protein abundance, respectively, leading to proliferation-prone premature mitotic exit in a checkpoint-dependent manner, similar to what has been described for MVA variants [ 19 ] and supporting the hypomorphic nature of the variant c.1171_1173del. Although increased BUB1B expression has been described as a common mechanism underlying carcinogenesis in different sporadic cancer types [ 47 – 49 ], our study shows that a different oncogenic-driver underlying mechanism operates in cells with decreased BUB1B expression triggered by a rare monoallelic variant. Moreover, our observation of decreased Taxol sensitivity in BUB1B -edited cells is in line with the finetuned balance between CIN levels and cell fate, where high CIN levels compromise response to Taxol-based therapies [ 45 , 46 ], potentially highlighting the ineffectiveness of Taxol-based therapies for the treatment of carcinomas arising in carriers of “deleterious” BUB1B variants.",
+   "text_sha256": "1ee793e02956a6014b3257fa1b360efdfca482851d4e678447ba769a82dd5c64"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 23,
+   "paragraph_id": "Discussion#p5",
+   "text": "Notwithstanding the identification of a core haplotype of 0.3 Mb among carriers of the variant c.1171_1173del, sustaining the hypothesis of a founder effect in northern Portugal, it is possible that the high fluctuation in the percentage of PCS among carriers (19–70%) is related to genetic variation outside the boundaries of the shared haplotype, as reported for different haplotypes found in Japanese families with PCS syndrome [ 18 ]. Further studies assessing the prevalence of carriers and the corresponding haplotypes across diverse genetic backgrounds holds immense promise in elucidating the origins of this variant and expanding our comprehension of its pivotal role in driving cancer development.",
+   "text_sha256": "ff1688c49f34781ff5274181467398f5ff05b4f5c2c2a67a71322f3d1299ebce"
+  },
+  {
+   "section": "Conclusions",
+   "section_index": 24,
+   "paragraph_id": "Conclusions#p1",
+   "text": "Our data provide solid evidence that monoallelic BUB1B variants are sufficient to cause a large spectrum of subclinical progressive chromosomal instability that predisposes carriers to (prostate) cancer development, supporting the classification of the variants identified in this study as “likely pathogenic” and pinpointing BUB1B as a ( pan )cancer predisposing gene. Altogether, our studies suggest that patients carrying the variant c.1117_1173del, or potentially other “deleterious” variants in the BUB1B gene, may benefit from pretherapeutic assessment of CIN/PCS to optimize treatment stratification and clinical trial design.",
+   "text_sha256": "681942279ef1aad2dee54a6e5e73ae02a96556c24a6bb3ceaa69b9fbb3defde7"
+  },
+  {
+   "section": "Supplementary Information",
+   "section_index": 25,
+   "paragraph_id": "Supplementary Information#p1",
+   "text": "Additional file 1. Supplementary Methods.",
+   "text_sha256": "f52253ad4256bcd47f8ed372206fb88579b3605cb903f88f1e08836e395582fc"
+  },
+  {
+   "section": "Supplementary Information",
+   "section_index": 25,
+   "paragraph_id": "Supplementary Information#p2",
+   "text": "Additional file 2. Supplementary Tables (Tables S1-S8).",
+   "text_sha256": "7047c34e5899e3f325829160ff36c03a0535565a2fa8d38fc952d955119661cd"
+  },
+  {
+   "section": "Supplementary Information",
+   "section_index": 25,
+   "paragraph_id": "Supplementary Information#p3",
+   "text": "Additional file 3. Supplementary Figures (Figures S1-S5).",
+   "text_sha256": "b1ab4ad060c0f344079449d845c9a7db02ff0480666326cc1daa7461d84996d0"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p1",
+   "text": "American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+   "text_sha256": "043fd42f0878d7885ab1abaa652251dc8a6839b2c6485b83649204b277fdf1c3"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p2",
+   "text": "Bub3 binding domain",
+   "text_sha256": "288a11a9edc44a2bc80f3add0174fdf666f3e9f7514c77f0d67ad222583339a4"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p3",
+   "text": "Budding uninhibited by benzimidazole-related 1",
+   "text_sha256": "4bc6eaf239db0c34717deeaacd1ba8d20345233b22cd81e53a852db903b56017"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p4",
+   "text": "Chromosomal instability",
+   "text_sha256": "99105433369c974f603f5ace6b32aa88fd070f73fb7c69d62c043e006dc53258"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p5",
+   "text": "Early-onset/familial (hereditary) PrCa",
+   "text_sha256": "e34a4baaa8f923f8aebd20e0db40444c95b29eb386b0ad2a1f840b53920b5e73"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p6",
+   "text": "Kinetochore",
+   "text_sha256": "86a28f54afeafc7afad1643defad3b72b5f4e8cf9e335f14faecc88bee039e73"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p7",
+   "text": "Mosaic Variegated Aneuploidy",
+   "text_sha256": "a8501d669165ab9bbd66bc2f3db2996ff19f4b1c3cb3180958ac544a86b94b91"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p8",
+   "text": "Mitotic checkpoint complex",
+   "text_sha256": "35447ee04fa46dc11c2506a72e1c8120106fcc83ab4a143bdbb8d6dda04c6e86"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p9",
+   "text": "Premature Chromatid Separation",
+   "text_sha256": "97dc4475740edfcc361fe82d8696ffa4f1b91a864136ba2e7f86fe371844325a"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p10",
+   "text": "Spindle Assembly Checkpoint",
+   "text_sha256": "90e002af08a05f46c9b5d49d5f83c1a207f651e7abccbcdcf6a04f4b5a169c0a"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p11",
+   "text": "Tetratricopeptide (domain)",
+   "text_sha256": "54ac81136743b804fe4ff262c70b5db63c2484bba80520b68ed9c5c03c30dba0"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p12",
+   "text": "Publisher’s Note",
+   "text_sha256": "7b733f95d85a54c2c6c86c2766ce534b5039ad0a06e9c3e705b46ec2269e0386"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p13",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+   "text_sha256": "ee48b3f81b1c925a5dc74f2fc76a9134f882f04b27f57a5bd7d2b4a0c2540546"
+  },
+  {
+   "section": "Abbreviations",
+   "section_index": 26,
+   "paragraph_id": "Abbreviations#p14",
+   "text": "Maria P. Silva, Luísa T. Ferreira, Manuel R. Teixeira and Paula Paulo contributed equally to this work.",
+   "text_sha256": "8b88901a3a105eb4862c137190aeba759c76511733e892a4e5131efed1e4d4e9"
+  },
+  {
+   "section": "Acknowledgements",
+   "section_index": 27,
+   "paragraph_id": "Acknowledgements#p1",
+   "text": "Not applicable.",
+   "text_sha256": "31e4410fff6f996711caa255cfa108b32af1132f74f895f27747fee88f496bf9"
+  },
+  {
+   "section": "Authors’ contributions",
+   "section_index": 28,
+   "paragraph_id": "Authors’ contributions#p1",
+   "text": "M.P.S. and L.T.F. established the in vitro cell models with BUB1B gene editing, performed in vitro experiments and KASP genotyping, and wrote the manuscript. N.F.B. performed computational analysis of BubR1 variants. L.T. performed Premature Chromatid Separation (PCS) analysis in both patients and in vitro cell populations. A.B. performed haplotype analyses using T-NGS and SNP OncoArray genotype data, and analysed RNA sequencing data. M.P. performed microsatellite haplotype analysis. M.C. participated in T-NGS and gene-editing optimization. A.R. and M.S. participated in RNA sequencing. J.V. participated in the validation of BUB1B gene editing. C.Pa. and G.M. participated in the establishment of the in vitro cell models with BUB1B gene editing. C.Pi. and A.P. performed NGS analysis with the TruSight Cancer Panel in non-prostate cancer patients fulfilling criteria for genetic testing. J.S. was involved in the recruitment of control samples for PCS analysis. R.H. performed histopathological analysis of FFPE tissues. S.M. and M.R.T. were involved in patient recruitment and genetic counselling for both patients and all interested relatives. H.M. supervised time-lapse microscopy and high-throughput screening of lagging chromosomes. P.P. designed and supervised the study, participated in T-NGS of both germline and FFPE DNA, and in RNA sequencing, and revised the manuscript.",
+   "text_sha256": "d1b353afbb7143ea0fd65145db8b76795da070728b6eacf6127e16f67f8b9859"
+  },
+  {
+   "section": "Funding",
+   "section_index": 29,
+   "paragraph_id": "Funding#p1",
+   "text": "We thank the funding support from IPO-Porto Research Center (CI-IPOP-24–2015) and from Fundação para a Ciência e a Tecnologia (FCT; POCI-01–0145-FEDER-016889, POCI-01–0145-FEDER-028245, and NORTE-01–0145-FEDER-072678). The following authors have/had their PhD fellowships or research contracts funded by FCT: AB (POCI-01–0145-FEDER-028245, POCI-01–0145-FEDER-006868 and 2021.03835.CEECIND), LTF (POCI-01–0145-FEDER-028245, NORTE-01–0145-FEDER-072678), MC (SFRH/BD/116557/2016), MP (SFRH/BPD/113014/2015 and NORTE-01–0145-FEDER-072678), MPS (SFRH/BD/132441/2017), MS (NORTE-01–0145-FEDER-072678), NFB (2018.02017.CEECIND), SM (SFRH/BD/71397/2010), and PP (2018.00091.CEECINST). The funders had no role in the conceptualization, design, data collection, analysis, decision to publish, or preparation of the manuscript.",
+   "text_sha256": "ea8e9882e370f8b8d9184ee111e14131ed3ef25e1c9755d925fa8580c781ad93"
+  },
+  {
+   "section": "Availability of data and materials",
+   "section_index": 30,
+   "paragraph_id": "Availability of data and materials#p1",
+   "text": "All data and associated protocols are included in the Manuscript and Supplementary Information and available to the readers. Cell lines generated in this study are available upon request.",
+   "text_sha256": "90f952857a01a9c76aad29992bee0d6125763e676d2fa21ceed07586b6b0e960"
+  },
+  {
+   "section": "Ethics approval and consent to participate",
+   "section_index": 32,
+   "paragraph_id": "Ethics approval and consent to participate#p1",
+   "text": "Patient samples were collected under ethics approval with reference CES 38–010 revised by the IPO Porto Ethics Committee. Informed consent was obtained from all subjects involved in the study.",
+   "text_sha256": "07e4cd111097c42024b2e75012cd21a43ee8618b15389f9eda99ec6e41943d85"
+  },
+  {
+   "section": "Consent for publication",
+   "section_index": 33,
+   "paragraph_id": "Consent for publication#p1",
+   "text": "Not applicable.",
+   "text_sha256": "31e4410fff6f996711caa255cfa108b32af1132f74f895f27747fee88f496bf9"
+  },
+  {
+   "section": "Competing interests",
+   "section_index": 34,
+   "paragraph_id": "Competing interests#p1",
+   "text": "The authors declare that they have no competing interests.",
+   "text_sha256": "49830cfc2c26f8432dc4e1a210ffcd5e99c48351b08c87c733f5f3db5b5780e0"
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "pmcid": "PMC6500003",
+ "xml_sha256": "af75dbe58ccb2efadc7bede77948f1e11d0b49f3c3351664001b049499322df6",
+ "provider": "europepmc",
+ "paragraphs": [
+  {
+   "section": "Background",
+   "section_index": 1,
+   "paragraph_id": "Background#p1",
+   "text": "Mosaic variegated aneuploidy (MVA) syndrome is a group of rare disorders in which chromosomal instability leads to aneuploidies (predominantly trisomies and monosomies) of different chromosomes in various tissues. Several genetic defects underlying MVA have been described.",
+   "text_sha256": "7c04591faa893f3ff71078551d24342b3741d5430edab392dee7aa6072028e2f"
+  },
+  {
+   "section": "Background",
+   "section_index": 1,
+   "paragraph_id": "Background#p2",
+   "text": "MVA type 1 (MVA1) (OMIM #257300) is an autosomal recessive disorder caused by biallelic mutations in the budding uninhibited by benzimidazoles 1 homolog beta ( BUB1B ) gene [ 1 ]. Budding uninhibited by benzimidazole-related 1 (BUBR1) protein, which is encoded by BUB1B gene, is involved in regulating the mitotic spindle checkpoint during cell division, which maintains the correct number of chromosomes [ 2 , 3 ]. In mice, full BUB1B gene knockout is known to be lethal in embryogenesis [ 4 ]. The first MVA1 cases described were caused by compound heterozygous mutations of the BUB1B gene [ 1 ]. There is also a report of a group of patients with monoallelic BUB1B mutations, which are hypothesized to be the cause of their MVA1 because it has been demonstrated that these patients have decreased levels of BUB1B transcript and protein [ 5 ]. The clinical features of MVA1 syndrome are growth retardation and microcephaly (often detected prenatally using ultrasound [ 6 ]), mental retardation, anomalies of the central nervous system (mostly Dandy-Walker malformation), mildly dysmorphic facial features, and predisposition to cancer [ 1 ], [ 5 ], [ 7 ]. The most frequent malignancies associated with MVA syndrome are embryonal rhabdomyosarcoma, Wilms tumor, and acute lymphoid leukemia (ALL), all of which have been reported to manifest in early childhood [ [ 8 , 9 ]]. The somatic heterozygous mutations of the BUB1B gene have also been found to be associated with the development of adult cancers [ 10 – 12 ]. To date, there have been only several reports of MVA1 patients with known genetic defects [ 1 , 5 , 6 ], and to our knowledge, there has been no experience with hematopoietic stem cell transplantation (HSCT) in these patients.",
+   "text_sha256": "b6248f10ae3c595b48962eaed50955e08df491c63e5673c4a345b195ef9fc976"
+  },
+  {
+   "section": "Background",
+   "section_index": 1,
+   "paragraph_id": "Background#p3",
+   "text": "Herein, we present our experience with HSCT in a patient with MVA1 complicated by myelodysplastic syndrome.",
+   "text_sha256": "5310d885145bb590ee46b5b954bdd9abf589883eceedca3554f68d867e7c8d1d"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p1",
+   "text": "The two novel mutations of the BUB1B gene were found via whole exome sequencing performed using a next generation sequencing (NGS) method. DNA was extracted from EDTA blood using a QIAamp DNA Mini Kit (Qiagen; Hilden, Germany). Libraries were generated according to the manufacturer’s protocols using TruSight One kits (Illumina; San Diego, CA, USA). Sequencing was conducted on the NextSeq500 platform (Illumina). An in-house custom analysis pipeline was used to filter and prioritize variants. The annotations included but were not limited to reference databases from The Genome Aggregation Database (gnomAD), ClinVar pathogenicity annotations, and Online Mendelian Inheritance in Man (OMIM) disorders as gene-based annotations. The mutations were confirmed in the patient using Sanger sequencing, and each mutation was detected in a heterozygous state in the respective parent. The function of the mutant proteins was predicted as being pathological but was found not to have been reported using searches of the Human Gene Mutation Database and the relevant scientific literature.",
+   "text_sha256": "5cf95f8c9a0923cf61522cb3a1031b1db98624f46ac59d908dd1499baa9a22a8"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p2",
+   "text": "Mutations of the NBN (nibrin) gene had previously been excluded using Sanger sequencing. Karyotyping was performed as previously described [ 13 ]. Fluorescent in situ hybridization (FISH) analysis was performed using a Vysis LSI D7S486/CEP7 (Abbott Laboratories; Edmonds, WA, USA) DNA probe according to the manufacturer’s instructions.",
+   "text_sha256": "93e55c6e551ec0f9d8f9300ffd4f5b191d7134d79bef75460fb08c5981b161c9"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p3",
+   "text": "The lymphocyte subsets were assessed using standard flow cytometry and monoclonal antibodies (Becton Dickson; Franklin Lakes, NJ, USA) on BD FACSCanto II (Becton Dickson). The levels of serum immunoglobulin were measured using the nephelometry technique on a BN ProSpec (Siemens; Berlin, Germany).",
+   "text_sha256": "58afe5f1a45f838274aa5b2cba0f853608b1ab752dde640f52112577c0bff403"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p4",
+   "text": "The anti-human leukocyte antigen (anti-HLA) antibodies were assessed using a Luminex multiplex bead array assay and Immucor (Norcross, GA, USA) according to the manufacturer’s instructions. The hematopoietic stem cell graft was derived from peripheral blood mononuclear cell fraction (obtained from matched unrelated donor using apheresis after a standard regimen of stem cell mobilization with granulocyte colony-stimulating factor (G-CSF)). TCRαβ+ and CD19+ graft depletion was performed using a CliniMACS Prodigy instrument (Miltenyi Biotec; Bergish Gladbach, Germany) according to the manufacturer’s recommendations.",
+   "text_sha256": "981e871e0b9c9a13a4a99650538bdbb6c87e85fa3b9e289b1924c14b0ddb38f8"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p5",
+   "text": "For neutrophil and platelet engraftment assessment standard definitions were used [ 14 ].",
+   "text_sha256": "25e5493e8e5f297171da43c0b816766dd98d33bce838754261db5a685441d2b0"
+  },
+  {
+   "section": "Methods",
+   "section_index": 2,
+   "paragraph_id": "Methods#p6",
+   "text": "To analyze donor chimerism, whole blood and bone marrow (BM) cells with CD3+ and CD34+ fractions were tested using real-time quantitative polymerase chain reaction assessment of the insertion/deletion short tandem repeats polymorphisms. The graft rejection was confirmed by detecting more than 90% of the patient’s cells in the CD34+ BM fraction.",
+   "text_sha256": "c90217c19805a7722f57810e412a682174a841c962710013c59c7080e62fbf21"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p1",
+   "text": "We report the case of a boy born in 2005 to healthy nonconsanguineous parents and no relevant family history. At 2 months of age, the boy presented with leukopenia (2.3 х 10*9/l) and thrombocytopenia (80 х 10*/l). Repeated BM investigations during the first year of life revealed BM hypoplasia, two sequential cytogenetic tests demonstrated clones with monosomy 7 with no other clonal anomalies. The patient remained stable and was followed conservatively. At age 9, he developed severe pancytopenia with a granulocytes level &lt; 0.3 х 10*9/л, anemia, and thrombocytopenia and required regular transfusions of red blood cells and platelets. A BM aspirate investigation showed multilineage myelodysplasia with 2–3% of blast cells and 50% of all cells containing monosomy 7. Myelodysplastic syndrome (MDS) which fitted the definition of refractory cytopenia of childhood (RCC) [ 15 ] was diagnosed. At age 10, the patient was admitted to our Center. His phenotypic features included microcephaly, growth retardation (height – 2nd percentile, weight – 3rd percentile), facial anomalies (frontal bossing, a triangular face, and micrognathia), multiple areas of skin café au lait hyperpigmentation, alopecia, and mental retardation. Magnetic resonance imaging of the brain detected the Dandy-Walker malformation. Complete blood count and all lymphocyte subsets were proportionally decreased, and dysgammaglobulinemia was demonstrated (Table 1 ). Because of microcephalia, cytopenia and Slavic origin of the patient, Sanger sequencing on the NBN gene (Nijmegen breakage syndrome) was performed, no mutations were found. The patient’s profound cytopenia precluded correct interpretation of the diepoxybutane test due to low number of mitoses.",
+   "text_sha256": "8fcdbb12e368bc6f3039b3a7a4753e4eb1ee3b4cb98b55753e50cc54b230dcdf"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p2",
+   "text": "Lymphocyte Subsets and Serum Immunoglobulin Levels in MVA1 Patient",
+   "text_sha256": "5316ed9564c1386aaaa69998f96d320935d3020a3f54750ac9fb4fe8e96bc357"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p3",
+   "text": "a minimal level before transfusion",
+   "text_sha256": "698cc8934cd6f46219fcc74b582b66ea17234bef0a9e6f658676d97ca0edb85c"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p4",
+   "text": "Although the patient’s underlying genetic defect was unknown at the time, HSCT was considered as the only option to cure the MDS. During his lifetime, the patient received multiple blood transfusions, and positive anti-HLA antibodies were found. Before the HSCT, rituximab (375 mg/m 2 ) was given once per week four times. It decreased the frequency of platelet transfusions, but patient remained cytopenic with hypoplastic BM, with blast cells level 0,8-1,6%. The conditioning regimen included treosulfan (30 g/m2), fludarabin (150 mg/m2), and thymoglobulin (5 mg/kg). According to the institutional protocol, the peripheral stem cells from a 10/10 HLA matched unrelated donor (MUD) after TCRαβ+/CD19+ graft depletion procedure were infused. Following depletion the graft contained: nuclear cells 4,33 х10*8/kg, CD34+ cells 9,4 х10*6/kg, CD3+ cells 5,1 х10*6/kg, TCRαβ+ cells 18 х10*3/kg.",
+   "text_sha256": "4e7a4c8d464dce3ac8cde029615a17ef6027a1a72cd9498108a05c7824cdb917"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p5",
+   "text": "Post-transplant immunosuppression consisted of tacrolimus from day − 1 (planned to be administrated till day + 45). After the HSCT, the patient developed mild treosulfan-related toxidermia and had a mild increase in liver enzymes, which resolved after a short pause in the tacrolimus therapy, but no signs of other organ toxicity. The platelet engraftment occurred on day + 16 and the neutrophil engraftment on day + 21 after the HSCT. The maximum platelet and neutrophil counts after engraftment were 129 х10*9/l and 0,72 х10*9/l, respectively. On day + 30 after the HSCT, the patient had mixed BM cell chimerism, with total of 48% of the donor cells, in CD34+ − 4% of the patient’s cells, in CD3+ 88% of the patient’s cells. On day + 47, graft rejection was detected, followed by prolonged pancytopenia with absolute neutrophil count 0, high dependence on blood transfusions (daily platelet and one in 2–3 days red blood cell transfusions), and no response to hematopoietic stimulating factors (G-CSF – filgrastim and thrombopoietin receptor agonist – romiplostim). BM investigation demonstrated aplastic features and no cells containing monosomy 7. Interestingly, after the HSCT, the resolution of the patient’s alopecia was observed.",
+   "text_sha256": "daef56a791d7092dfc381ccf2b873e2ebfd966e5b6895717bba23d3cb76d9284"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p6",
+   "text": "In parallel, whole exome sequencing was performed using patient’s stored pretransplant blood sample. The results obtained after the HSCT showed two heterozygous mutations in the BUB1B gene: c.498_505delAAACTTTA and c.1288 + 5G &gt; A. These mutations have not been described previously, yet the frame shift (c.498_505delAAACTTTA) and splice site (c.1288 + 5G &gt; A) mutations were predicted to be pathogenic. Investigation of the patient’s fibroblasts revealed a normal karyotype and no cytogenetic abnormalities. Mutations in the genes SAMD9 and GATA2 , which are frequently associated with monosomy 7 and MDS in early childhood [ 16 , 17 ] were not detected by exome sequencing of the patient’s pre-HSCT blood sample. Yet SAMD9L gene was not tested.",
+   "text_sha256": "437ca736d1297014d24552b7b140c53b344430dd374686c49f98ed7409f64ef7"
+  },
+  {
+   "section": "Results",
+   "section_index": 3,
+   "paragraph_id": "Results#p7",
+   "text": "After the graft rejection, a second transplantation from another MUD was planned, but the patient developed sepsis and multiorgan Enterococcus faecium infection and had no response to a combination of antimicrobial therapy and donor granulocyte transfusions. Unfortunately, the patient died of infectious complications on day + 156 after the HSCT.",
+   "text_sha256": "a87162c05c1ac1b8074ab08a253863cf575b449a0267d16cec2e2b45d255c98d"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 4,
+   "paragraph_id": "Discussion#p1",
+   "text": "MVA1 is a rare condition caused by BUB1B mutations, which were found in our patient in the compound heterozygous state. Although MVA1 patients are highly predisposed to malignancies, to our knowledge, so far, there has been only one report of myelodysplasia in an MVA1 patient [ 8 ]. The patient described by Jacquemont et al. had severe cytopenia and signs of myelodysplasia in the BM, which were detected in the first days of life, and multiple trisomies and monosomies in the fibroblasts, BM, and peripheral blood cells. At age three, that patient developed acute lymphoid leukemia and died three months later of the disease’s progression. Interestingly, our patient had remained cytopenic for several years with persistence of the clone with monosomy 7 and no evidence of progression to acute leukemia. Therefore, in our patient, the indications for HSCT were severe BM aplasia and high dependence on transfusions of blood components, rather than long-lasting monosomy 7 associated myelodysplasia.",
+   "text_sha256": "4183ed49d5b18a8b5edaed5cc6c34901a49826a3c7b2b211aa53fef66e18723e"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 4,
+   "paragraph_id": "Discussion#p2",
+   "text": "Despite the fact that his genetic defect was unknown at the time, based on his clinical features and microcephaly our patient was suspected to have had one of the chromosomal instability syndromes. Hence, we performed an HSCT with a reduced intensity conditioning (RIC) regimen and a TCRαβ+/CD19+ graft depletion. Importantly, after the HSCT, no significant toxicity was observed, which would be expected in patients with chromosomal instability syndromes [ 18 ]. Unfortunately, on day + 47 after the HSCT, graft rejection occurred. The graft rejection might have been caused by the RIC being not immunoablative enough to clear patient’s residual lymphocytes. The persistence of the anti-HLA antibodies were also considered to be a factor that contributed to the graft rejection. In our previous study of TCRαβ+/CD19+ depleted HSCT in patients with primary immunodeficiencies high incidence of graft rejection after RIC regimens with one alkylating agents was observed [ 19 ]. We also have reported 3 of 15 patient with Nijmegen breakage syndrome to reject the graft after Fanconi anemia adopted conditioning regimen [ 20 ]. However, this group of patients was too small to evaluate the role of depletion procedure in the graft failure.",
+   "text_sha256": "14abba27ab25bf8bee58696c6ed535631b8ce85352b747b764b10c444a0d187e"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 4,
+   "paragraph_id": "Discussion#p3",
+   "text": "Despite the clearance of monosomy 7 clone, after graft rejection the patient failed to recover his hematopoiesis and remained profoundly cytopenic for the next five months. The explanation for this phenomenon could be preexisted long-term BM aplasia with an exhaustion of hematopoiesis, as well as prolonged infectious complications after the HSCT. We also consider the contribution of defective function of the BM precursors, that carried the BUB1B mutations. The important role of BUBR1 in hematopoiesis has previously been demonstrated in the BUB1B hypomorphic allele (H/H) mouse model [ 21 ]. Interestingly, although the patient had been considered as having no obvious clinical signs of immunodeficiency before the HSCT, his alopecia resolved after transplantation, likely proving its autoimmune pathogenesis.",
+   "text_sha256": "0a3e4f44b54a91b421dd0379062f30aa559bdb129ca3bf0cd3d66055b27911f2"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 4,
+   "paragraph_id": "Discussion#p4",
+   "text": "Cytogenetic anomalies were found in our patient’s bone marrow cells, as they were in the hematopoietic and somatic cells of the patients reported previously. Therefore, we conducted a cytogenetic analysis of our patient’s fibroblasts, which revealed no aneuploidy. This fact can be explained by the variegation of the aneuploidy in different cells in MVA1 patients [ 5 ].",
+   "text_sha256": "9c270ec6e2b3aa40d6bbfd26dbe7cb747762874c57e74dc059263c7e14f41131"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 4,
+   "paragraph_id": "Discussion#p5",
+   "text": "A variety of primary immunodeficiencies and congenital BM failure syndromes (predominantly with DNA repair impairment), including Nijmegen breakage syndrome, Ligase 4, Cernunnos, Rad50 deficiencies, Fanconi anemia, and some others, combine the symptoms of microcephaly and cytopenia [ 22 , 23 ]. Most of these syndromes are characterized by high predisposition to malignancies. In these patients, HSCT is a well-established curative treatment for immunodeficiency and/or BM failure, and it also has been shown to reduce the risks of development or relapse of lymphoid or myeloid malignancies [ 20 ]. Because the patients with the aforementioned syndromes frequently have increased organ toxicity after myeloablative conditioning due to the abnormal DNA repair, the use of RIC regimens has demonstrated better survival after transplantation [ 18 , 24 ]. However, the visceral toxicity of a conditioning regimen may be quite different in patients who have phenotypically overlapping, but genetically different, chromosomal-instability syndromes, with some patients tolerating well myeloablative regimens that are nearly full dose [ 20 ]. Given this, it is critical to know the diagnosis prior to the HSCT in order to choose a maximally myeloablative and a minimally toxic conditioning regimen, especially in the context of T-cell depletion, which confers a higher risk of rejection in patients with fully or partially preserved immunity. Thus, the next generation sequencing is the method of choice for confirming diagnoses in so variable a group of syndromes, as this case demonstrates.",
+   "text_sha256": "57df10c78c58cf1aa015232327aabfd3510b6c75d506f252de9c8b6a0262de42"
+  },
+  {
+   "section": "Conslusion",
+   "section_index": 5,
+   "paragraph_id": "Conslusion#p1",
+   "text": "In conclusion, we report the first experience with an HSCT in a patient with mosaic variegated aneuploidy 1 syndrome and myelodysplasia who had a good tolerance for the reduced intensity conditioning regimen but who unfortunately experienced graft rejection later.",
+   "text_sha256": "7d08ad25aa9388473797832ec0a651b4d05e9cf050631f0754d738c8e56f1d35"
+  },
+  {
+   "section": "Acknowledgements",
+   "section_index": 6,
+   "paragraph_id": "Acknowledgements#p1",
+   "text": "We would wish to thank the Immunology and HSCT Units staff, ‘Podari Zhizn’ charitable fund for support of the transplantation program.",
+   "text_sha256": "265b04e1a826ef721f64fd152fb37f9b727d2b6c07a7e4e0e65fcec6caa60346"
+  },
+  {
+   "section": "Funding",
+   "section_index": 7,
+   "paragraph_id": "Funding#p1",
+   "text": "Not applicable.",
+   "text_sha256": "31e4410fff6f996711caa255cfa108b32af1132f74f895f27747fee88f496bf9"
+  },
+  {
+   "section": "Availability of data and materials",
+   "section_index": 8,
+   "paragraph_id": "Availability of data and materials#p1",
+   "text": "The dataset used and/or analysed during the current study is available from the corresponding author on reasonable request.",
+   "text_sha256": "108cfec4af4ed59408a426d2fe22d3b2dbb3df9ea71aa77985d3a425d67aa51b"
+  },
+  {
+   "section": "Authors’ contributions",
+   "section_index": 9,
+   "paragraph_id": "Authors’ contributions#p1",
+   "text": "AL was involved to patient care, analyzed and interpreted the patient data, prepared the manuscript. DB contributed to HSCT therapy. ED was involved to patient care. OS performed the karyotyping and FISH analysis. ER contributed all molecular genetics testing. AM and GN were the major contributors to patient care and revising the manuscript. AS was contributed to patient care, edited and coordinated the manuscript. All authors read and approved the final manuscript.",
+   "text_sha256": "4eb565ca620fc61aa7e7eb1ff96c635721849d663595af3a6e1d078650218485"
+  },
+  {
+   "section": "Authors’ information",
+   "section_index": 10,
+   "paragraph_id": "Authors’ information#p1",
+   "text": "Not applicable.",
+   "text_sha256": "31e4410fff6f996711caa255cfa108b32af1132f74f895f27747fee88f496bf9"
+  },
+  {
+   "section": "Ethics approval and consent to participate",
+   "section_index": 11,
+   "paragraph_id": "Ethics approval and consent to participate#p1",
+   "text": "the study was approved by independent ethics committee of Dmitriy Rogachev National Center for Pediatric Hematology, Oncology and Immunology (Moscow, Russia), consent to participate was obtained from the patient.",
+   "text_sha256": "5f06020278eae3616b33d260f0777822fbfc324beb0124f64b0a60271bb54e2d"
+  },
+  {
+   "section": "Consent for publication",
+   "section_index": 12,
+   "paragraph_id": "Consent for publication#p1",
+   "text": "institutional consent form was obtained from the patient.",
+   "text_sha256": "71da20db27312ba1e5fa513d58536dfcead22fe6f49df136174dc65f70328142"
+  },
+  {
+   "section": "Competing interests",
+   "section_index": 13,
+   "paragraph_id": "Competing interests#p1",
+   "text": "The authors declare that they have no competing interests.",
+   "text_sha256": "49830cfc2c26f8432dc4e1a210ffcd5e99c48351b08c87c733f5f3db5b5780e0"
+  },
+  {
+   "section": "Publisher’s Note",
+   "section_index": 14,
+   "paragraph_id": "Publisher’s Note#p1",
+   "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+   "text_sha256": "ee48b3f81b1c925a5dc74f2fc76a9134f882f04b27f57a5bd7d2b4a0c2540546"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p1",
+   "text": "Alexandra Laberko, Email: alexandra.laberko@gmail.com.",
+   "text_sha256": "c55728ba791b0e407b3aa30889976fc29a48d8470a176cf08c694387a7d8790f"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p2",
+   "text": "Dmitry Balashov, Email: bala8@yandex.ru.",
+   "text_sha256": "cba59d6a70025a47b47682671bad388a7df95068171f8f42d0ce6a22e5f9a13d"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p3",
+   "text": "Elena Deripapa, Email: deripapa@mail.ru.",
+   "text_sha256": "ea3ee7b6cf4fb4ec92266b55977df7c2d357c53e7bd5f7b11b8731732d394ba6"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p4",
+   "text": "Olga Soldatkina, Email: osoldatkina@gmail.com.",
+   "text_sha256": "d29c3e639de803ed6969b20e0849978d5139b292c75cfeddd5de39278847e2bf"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p5",
+   "text": "Elena Raikina, Email: e_raikina@inbox.ru.",
+   "text_sha256": "d792a5fb7ceea526b5a4e00964da95a460270bc11eeb193105d81a5c7cac6243"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p6",
+   "text": "Alexei Maschan, Email: amaschan@mail.ru.",
+   "text_sha256": "20fa95d11f6f6fe4334b7551d6d2c8621e1eca5e70510df21710f81dc3aa0fdc"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p7",
+   "text": "Galina Novichkova, Email: gnovichkova@yandex.ru.",
+   "text_sha256": "154254f54674c17543d0063ea4a7263b1581a8e41a7057e65518566d4653f818"
+  },
+  {
+   "section": "Contributor Information",
+   "section_index": 15,
+   "paragraph_id": "Contributor Information#p8",
+   "text": "Anna Shcherbina, Email: shcher26@hotmail.com.",
+   "text_sha256": "061698b6c480776f73e16d5b39526fef4994e9d567d34ccc53164eaf8e891031"
+  },
+  {
+   "section": "Data Availability Statement",
+   "section_index": 18,
+   "paragraph_id": "Data Availability Statement#p1",
+   "text": "The dataset used and/or analysed during the current study is available from the corresponding author on reasonable request.",
+   "text_sha256": "108cfec4af4ed59408a426d2fe22d3b2dbb3df9ea71aa77985d3a425d67aa51b"
+  }
+ ]
+}

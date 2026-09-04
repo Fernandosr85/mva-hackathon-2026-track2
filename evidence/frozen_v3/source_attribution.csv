@@ -1,0 +1,12 @@
+claim_id,claim_type,declared_pmcid,declared_doi,attribution_confidence,attribution_recorded
+M01,mechanism,PMC9605988,,believed,post_hoc_after_v0_audit
+M02,mechanism,PMC9605988,,believed,post_hoc_after_v0_audit
+M03,mechanism,PMC8066494,,believed,post_hoc_after_v0_audit
+M04,mechanism,PMC4337726,10.7554/eLife.05269,believed,post_hoc_after_v0_audit
+M05,mechanism,PMC2887387,,believed,post_hoc_after_v0_audit
+M06,mechanism,PMC2887387,,believed,post_hoc_after_v0_audit
+M07,mechanism,PMC2887387,,believed,post_hoc_after_v0_audit
+C01,clinical,PMC11102876,,believed,post_hoc_after_v0_audit
+C02,clinical,PMC6500003,,believed,post_hoc_after_v0_audit
+T01,therapeutic,PMC11251299,10.1186/s12929-024-01056-z,verified_in_v0,post_hoc_after_v0_audit
+X01,therapeutic,,,none,post_hoc_after_v0_audit

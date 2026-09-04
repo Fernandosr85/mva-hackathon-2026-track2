@@ -1,0 +1,26 @@
+case_id,category,axis_a,axis_b,axis_c,axis_d,over_assertion,claim_strength,source_strength,match_score,polarity_conflict,expected_axis_d,expected_over_assertion,mutation,reason
+S01,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S02,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S03,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S04,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,1.0,1.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S05,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,1.0,1.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S06,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S07,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S08,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S09,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+S10,supported,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,calibrated,none,span anchored (exact) in retrieved text
+W01,wrong_source,source_retrieved,fulltext_available,not_found,unsupported,not_evaluable,,,0.375,False,not_grounded,,identifier PMC11102876 -> PMC2887387,full text searched; the span is absent
+W02,wrong_source,source_retrieved,fulltext_available,not_found,unsupported,not_evaluable,,,0.35,False,not_grounded,,identifier PMC11102876 -> PMC4337726,full text searched; the span is absent
+W03,wrong_source,source_retrieved,fulltext_available,not_found,unsupported,not_evaluable,,,0.312,False,not_grounded,,identifier PMC11102876 -> PMC6500003,full text searched; the span is absent
+W04,wrong_source,source_retrieved,fulltext_available,not_found,unsupported,not_evaluable,,,0.222,False,not_grounded,,identifier PMC11102876 -> PMC8066494,full text searched; the span is absent
+W05,wrong_source,source_retrieved,fulltext_available,not_found,unsupported,not_evaluable,,,0.238,False,not_grounded,,identifier PMC11102876 -> PMC9605988,full text searched; the span is absent
+V01,verb_inflation,source_retrieved,fulltext_available,exact,grounded,over_asserted,3.0,1.0,1.0,False,grounded,over_asserted,"\bare associated with\b -> cause  (tier t1->t3, validated)",span anchored (exact) in retrieved text
+V02,verb_inflation,source_retrieved,fulltext_available,exact,grounded,over_asserted,3.0,1.0,1.0,False,grounded,over_asserted,"\bsuggested\b -> established  (tier t1->t3, validated)",span anchored (exact) in retrieved text
+V03,verb_inflation,source_retrieved,fulltext_available,exact,grounded,over_asserted,3.0,1.0,1.0,False,grounded,over_asserted,"\bproposed\b -> proven  (tier t1->t3, validated)",span anchored (exact) in retrieved text
+V04,verb_inflation,source_retrieved,fulltext_available,exact,grounded,over_asserted,3.0,1.0,1.0,False,grounded,over_asserted,"\bsuggests\b -> establishes  (tier t1->t3, validated)",span anchored (exact) in retrieved text
+V05,verb_inflation,source_retrieved,fulltext_available,exact,grounded,over_asserted,3.0,1.0,1.0,False,grounded,over_asserted,"\bsuggested\b -> established  (tier t1->t3, validated)",span anchored (exact) in retrieved text
+E01,entity_swap,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,,\bBUBR1\b -> BUB1 (in claim only; span unchanged),span anchored (exact) in retrieved text
+E02,entity_swap,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,,\bBUBR1\b -> BUB1 (in claim only; span unchanged),span anchored (exact) in retrieved text
+E03,entity_swap,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,,\bBUB1B\b -> BUB1 (in claim only; span unchanged),span anchored (exact) in retrieved text
+E04,entity_swap,source_retrieved,fulltext_available,exact,grounded,calibrated,0.0,0.0,1.0,False,grounded,,\bBUB1B\b -> BUB1 (in claim only; span unchanged),span anchored (exact) in retrieved text
+E05,entity_swap,source_retrieved,fulltext_available,exact,grounded,calibrated,1.0,1.0,1.0,False,grounded,,\bBUBR1\b -> BUB1 (in claim only; span unchanged),span anchored (exact) in retrieved text

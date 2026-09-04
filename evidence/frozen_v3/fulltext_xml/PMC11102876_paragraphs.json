@@ -1,0 +1,217 @@
+{
+ "pmcid": "PMC11102876",
+ "xml_sha256": "dc3fcc3e65ce2f03347a479f66f6bb1ea65b282f67a2d93b28ddbec17c4c30f9",
+ "provider": "europepmc",
+ "paragraphs": [
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p1",
+   "text": "Infertility is estimated to affect 8-12% of couples of reproductive age worldwide, and approximately 50% of affected individuals are men [ 1 ]. Approximately 30-50% of male infertility cases are unexplained [ 2 ], and as yet unidentified genetic factors may contribute to many of these cases [ 3 ].",
+   "text_sha256": "9a4b11cb229c7fe0b9790d8d7e9572c5fe16f1e31929cb23f1ff9e4c36f115f9"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p2",
+   "text": "Premature chromatid separation (PCS, Mendelian Inheritance in Man (MIM) 176430) is characterized by separate and splayed chromatids with discernible centromeres, and it can be observed in up to 2% of metaphase lymphocytes in normal individuals [ 4 ]. When PCS is found in more than 5% of cells, the condition is termed heterozygous PCS trait. This is caused by monoallelic mutations in causative genes, such as BUB1B and CEP57. The phenotype is normal, but the PCS trait is inherited in an autosomal codominant pattern. When PCS is detected in more than 50% of cells, it is accompanied by mosaic variegated aneuploidy (MVA, MIM 257300); this condition is referred to as PCS syndrome or MVA syndrome.",
+   "text_sha256": "5eb8d4bca2ed4a84a1d50b6f7c09900098b92cc49ca3ea71ad28ea74bb29ed68"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p3",
+   "text": "PCS/MVA syndrome is characterized by growth retardation, severe microcephaly, and intractable seizures [ 5 ]. Almost all patients with PCS/MVA syndrome develop childhood cancers, such as Wilms tumor, rhabdomyosarcoma, or acute leukemia, leading to a poor prognosis, and most such patients die before the age of two years. Individuals with these symptoms are presumed to be homozygous for the PCS trait, which is inherited in an autosomal recessive pattern.",
+   "text_sha256": "f488a92429a8dfd110cd8288cad9238826615130d447ece4b86308f9dc0e3513"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p4",
+   "text": "Although the incidence of PCS/MVA syndrome is only 1:1,000,000, heterozygous carriers of the PCS trait are not uncommon; approximately one in 200 to 300 persons is a heterozygous carrier. When a patient is found to be a carrier, a clinical psychological approach that includes genetic counseling is important.",
+   "text_sha256": "2415e7e25eca26083d6728b32840c89f268cb1457e3681271563c3f2d031cdbc"
+  },
+  {
+   "section": "Introduction",
+   "section_index": 1,
+   "paragraph_id": "Introduction#p5",
+   "text": "We herein report a case of PCS trait found during the diagnosis of male infertility.",
+   "text_sha256": "90e51800ecdd98b5ed77086fa15e786b57bf4b3447eca43a6fc6cc09b5b70e0c"
+  },
+  {
+   "section": "Case presentation",
+   "section_index": 2,
+   "paragraph_id": "Case presentation#p1",
+   "text": "A 34-year-old man visited our clinic with a chief complaint of infertility. He had been infertile for approximately three years and had no abnormalities in sexual functions, such as libido, erection, or ejaculation. His wife was 34 years old and had no history of pregnancy or childbirth. No abnormalities were noted during his wife’s visit to the infertility clinic.",
+   "text_sha256": "6fd27405001fddb83af338f24ddd2336f2ddebf6af005187fbd3530ebba594b3"
+  },
+  {
+   "section": "Case presentation",
+   "section_index": 2,
+   "paragraph_id": "Case presentation#p2",
+   "text": "The patient was diagnosed with azoospermia based on the results of two semen analyses. On physical examination, his testes were bilaterally atrophic with a volume of 8 mL. His blood follicle-stimulating hormone, luteinizing hormone, and testosterone levels were 19.9 mIU/mL, 10.2 mIU/mL, and 3.23 ng/mL, respectively (Table 1 ). His Tanner stage was G5, but his pubic hair could not be evaluated because of post-epilation treatment. No varicoceles were found. Based on these findings, the patient was diagnosed with nonobstructive azoospermia. There were no azoospermia factor (AZF) microdeletions on the Y chromosome.",
+   "text_sha256": "ddc3b9ecdcc97a41cf841d7acb56c3dbd19f00091bb202459e1f14c7cde98673"
+  },
+  {
+   "section": "Laboratory values",
+   "section_index": 3,
+   "paragraph_id": "Laboratory values#p1",
+   "text": "Pt: patient; M, 34y: 34-year-old male; Ref: reference range; FSH: follicle-stimulating hormone; LH: luteinizing hormone",
+   "text_sha256": "1a9fc3d909f15fac4a455de7cab5ea70d63ea20937d21883cd2a7bb2ab423d27"
+  },
+  {
+   "section": "Laboratory values",
+   "section_index": 3,
+   "paragraph_id": "Laboratory values#p2",
+   "text": "Chromosome examination (G-banding) revealed the PCS trait in 81 of 200 cells (40.5%) (Figure 1 ). We diagnosed the patient as a heterozygous carrier of the PCS trait because he exhibited no characteristic physical symptoms of PCS/MVA syndrome despite his high PCS positivity rate.",
+   "text_sha256": "2e139accd7b64c710cee64d156b49decb11056f77edcf50778103f2d4814642d"
+  },
+  {
+   "section": "Chromatid examination (G-banding)",
+   "section_index": 4,
+   "paragraph_id": "Chromatid examination (G-banding)#p1",
+   "text": "Premature chromatid separation was observed in 81 of 200 cells (40.5%).",
+   "text_sha256": "c0948437cc1dd92c22729c30ba60a16bda692a1daba465e0b719f7f766b5292d"
+  },
+  {
+   "section": "Chromatid examination (G-banding)",
+   "section_index": 4,
+   "paragraph_id": "Chromatid examination (G-banding)#p2",
+   "text": "If his wife were also a heterozygous carrier of the PCS trait, there would be a 25% likelihood that their child would develop PCS/MVA syndrome. Consequently, genetic counseling was offered to support the couple’s decision-making, including the consideration of microsurgical testicular sperm extraction (micro-TESE). During the genetic counseling, we provided information on the pathophysiology of PCS and its effect on the next generation, including the possibility of having a child with PCS/MVA syndrome. We also offered the wife the option of undergoing a chromosome examination.",
+   "text_sha256": "285bed8fba9a3ace45cbb70e68f655d105fd5b7be43306a548663adf90118076"
+  },
+  {
+   "section": "Chromatid examination (G-banding)",
+   "section_index": 4,
+   "paragraph_id": "Chromatid examination (G-banding)#p3",
+   "text": "Following counseling, the couple wished for the wife to undergo a chromosome examination to help them decide whether to proceed with micro-TESE. No PCS-positive cells were found among the 200 cells observed, suggesting that the wife was unlikely to be a carrier.",
+   "text_sha256": "f7f9a8918bbf412a0056e4ac4a4b5baa27f4e0d6374f5184eac355bd8dea7055"
+  },
+  {
+   "section": "Chromatid examination (G-banding)",
+   "section_index": 4,
+   "paragraph_id": "Chromatid examination (G-banding)#p4",
+   "text": "Micro-TESE was performed on the patient, but sperm could not be retrieved, and pathological examination showed only Sertoli cells (Johnsen score of two) (Figure 2 ).",
+   "text_sha256": "415a5d5ee0ea9c43513797b131a0a320697ffe553684755960bcdcfdd63432e7"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p1",
+   "text": "The gene responsible for PCS, BUB1B, encodes the spindle assembly checkpoint protein BUBR1. Patients with PCS/MVA syndrome often have a combination of a null mutation in one BUB1B gene that does not produce the protein and a missense mutation or haplotype in the other that reduces BUBR1 expression [ 6 , 7 ].",
+   "text_sha256": "1bf13b9159f5b3ecfa9d91977cf48cd813c6a5d276d513b6c2c9d2ea381d61d2"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p2",
+   "text": "The PCS trait is present not only in patients with PCS/MVA syndrome but also in heterozygous carriers of single allelic mutations. It is more prevalent in peripheral blood lymphocytes of patients with PCS/MVA syndrome than in heterozygous carriers, with reported rates of 2.5-47.0% in carriers and 67.0-87.5% of lymphocytes in affected patients [ 8 ]. However, clinical symptoms only manifest in affected patients; therefore, PCS/MVA syndrome is inherited in an autosomal recessive pattern, with carriers exhibiting a normal phenotype. In our patient, although the PCS-positive cell rate was high, the patient was considered to be a heterozygous carrier because he did not present symptoms typical of PCS syndrome.",
+   "text_sha256": "6bf09726c132bf9a924b13fac22ea98b53a4965f918ad61f3d7aa4866f082d68"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p3",
+   "text": "Although the estimated number of heterozygous carriers of the PCS trait is only approximately one in 200-300 individuals, encountering carriers in the clinical practice of male infertility is not notably common. Consequently, there is little reason to suspect an association between a PCS carrier status and spermatogenesis dysfunction. In fact, there have been no reports of azoospermia or male infertility in human heterozygous carriers. However, the number of cells examined during chromosome testing is usually around 20, and PCS-positive cells may therefore be missed when present in low numbers.",
+   "text_sha256": "9bf3360f1c693bf10cf7868c644ea75649221d14d4bcc33a5c36fff7d80e770a"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p4",
+   "text": "Baker et al. [ 9 ] utilized wild-type, knockout, and low-expressing alleles of Bub1b to create mice with progressively reduced BUBR1 expression, ranging from normal levels to zero. Homozygous mice with the Bub1b low-expressing allele exhibited abnormal spermatocyte chromosome numbers, leading to lower sperm counts and reduced fertilization rates. This strongly suggests that BUBR1 plays a pivotal role in spermatogenesis. Conversely, details regarding the impact on germ cells in males heterozygous for BUBR1 have not been provided, and there are no reports indicating an elevated risk of azoospermia or infertility in human PCS carriers.",
+   "text_sha256": "6ac94bbbb2e8c1e44ba92897221f8a5d64ab4bc489e751bb4d901f867ec0b015"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p5",
+   "text": "However, carriers with a relatively high PCS-positive cell rate, such as our patient, are assumed to have a lower BUBR1 expression level than the general population. Therefore, it is conceivable that spermatogenic function may gradually decline as the expression of BUBR1 further diminishes because of factors, such as aging. Nevertheless, because the patient in our case presented with severe spermatogenesis, which cannot be solely explained by a decrease in BUBR1, another factor likely contributes to infertility.",
+   "text_sha256": "c69e29772b11eb96b5da7b7d5c0521f1c652c9a2bd1846be478b8a654f74e287"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p6",
+   "text": "If both members of a couple are carriers, they may have a child with PCS/MVA syndrome or have a miscarriage. It is crucial to adequately prepare for the postnatal care of children with PCS/MVA syndrome, and several reports discuss the prenatal diagnosis of PCS [ 10 , 11 ]. If there is a possibility that a fetus has PCS/MVA syndrome, prenatal diagnosis becomes valuable for planning postnatal care in advance.",
+   "text_sha256": "533665e916cccfe82b5e92a8f61285692379625f3fffe3fa8a96bf11a992c643"
+  },
+  {
+   "section": "Discussion",
+   "section_index": 6,
+   "paragraph_id": "Discussion#p7",
+   "text": "In the fertility treatment setting, if one member of a couple is identified as a PCS carrier, the patient’s feelings should be taken into consideration and sufficient explanation of the condition should be given, including the option of chromosome examination for the other member of the couple and prenatal diagnosis.",
+   "text_sha256": "e1678fa7217cd80d177dc778c689a2e6a7c7fefb69dec6515cd0869773738399"
+  },
+  {
+   "section": "Conclusions",
+   "section_index": 7,
+   "paragraph_id": "Conclusions#p1",
+   "text": "PCS/MVA syndrome is a rare genetic disorder, but PCS carriers are not infrequently encountered in practice. If a patient is diagnosed as a PCS carrier in male infertility practice, a clinical psychological approach that includes genetic counseling should be considered before proceeding with micro-TESE. Offering chromosome examination to the partner is also an option.",
+   "text_sha256": "70690608d2c2231d6f5b7f7c7fa0dd09d9ec26c5fddaa31de1d2a909deadfd0b"
+  },
+  {
+   "section": "Conclusions",
+   "section_index": 7,
+   "paragraph_id": "Conclusions#p2",
+   "text": "BUB1B, one of the genes responsible for PCS syndrome, may have a significant impact on spermatogenesis. Whether PCS was the direct cause of azoospermia in this patient remains unclear, and further research on the role of causative genes, such as BUB1B, is warranted.",
+   "text_sha256": "d6968e78484837508c91b5cdd57e64458d895ea7c2adb7486f4ef5c57478ade6"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_index": 8,
+   "paragraph_id": "Acknowledgments#p1",
+   "text": "We thank Angela Morben, DVM, ELS, from Edanz (https://jp.edanz.com/ac) for editing a draft of this manuscript.",
+   "text_sha256": "2128413a985c721db86f50883cfa9769936f115f4d923f2e6835d78460552b32"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_index": 8,
+   "paragraph_id": "Acknowledgments#p2",
+   "text": "The authors have declared that no competing interests exist.",
+   "text_sha256": "06fa49ea89bd7f67b65840c0ae2951ca95c127bd529d86240390bce43fe0cfe2"
+  },
+  {
+   "section": "Author Contributions",
+   "section_index": 9,
+   "paragraph_id": "Author Contributions#p1",
+   "text": "Concept and design: Shun Kawamura, Koji Chiba, Yasuhiro Kaku, Takuto Hara, Hideaki Miyake, Keisuke Okada",
+   "text_sha256": "d74ccfac3b92211ae5a31655cceab843f8e188a6d74a8ea7dcfafddd7e3357d9"
+  },
+  {
+   "section": "Author Contributions",
+   "section_index": 9,
+   "paragraph_id": "Author Contributions#p2",
+   "text": "Acquisition, analysis, or interpretation of data: Shun Kawamura, Koji Chiba, Yosuke Yamashita, Katsuya Sato",
+   "text_sha256": "e8457db1b2bafe9870eca6732068d572977ab0a0c1d97e1239c405cf190b132c"
+  },
+  {
+   "section": "Author Contributions",
+   "section_index": 9,
+   "paragraph_id": "Author Contributions#p3",
+   "text": "Drafting of the manuscript: Shun Kawamura, Yosuke Yamashita, Katsuya Sato",
+   "text_sha256": "b997520cb62d8a48e7e8218ae64fb2cecc2c852be682861a85f5bedd3b2f28f3"
+  },
+  {
+   "section": "Author Contributions",
+   "section_index": 9,
+   "paragraph_id": "Author Contributions#p4",
+   "text": "Critical review of the manuscript for important intellectual content: Shun Kawamura, Koji Chiba, Yasuhiro Kaku, Takuto Hara, Hideaki Miyake, Keisuke Okada",
+   "text_sha256": "bea59a3f659ea054d595f0c47f78954ff6bb04532fd986c015b7557bc1665c6d"
+  },
+  {
+   "section": "Author Contributions",
+   "section_index": 9,
+   "paragraph_id": "Author Contributions#p5",
+   "text": "Supervision: Koji Chiba, Hideaki Miyake",
+   "text_sha256": "91386c02e403c99b093e332cffac52fde044ac5ae0445e21f4200ac41442e91b"
+  },
+  {
+   "section": "Human Ethics",
+   "section_index": 10,
+   "paragraph_id": "Human Ethics#p1",
+   "text": "Consent was obtained or waived by all participants in this study",
+   "text_sha256": "441677d32c999f7dae5db31f9eaed7025852f9bfb392e2daed721bb724ca91fa"
+  }
+ ]
+}

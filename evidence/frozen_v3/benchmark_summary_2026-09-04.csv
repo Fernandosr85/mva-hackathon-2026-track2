@@ -1,0 +1,8 @@
+category,n_run,detected,criterion_threshold,falsification_floor,verdict,note
+supported,10,10.0,10.0,10.0,met,deterministic: claim == span. Below 10/10 is a bug.
+wrong_source,5,5.0,4.0,2.0,met,"detection is axis C/D, not axis A"
+verb_inflation,5,5.0,5.0,3.0,met,generator validates every mutation raises the tier
+entity_swap,5,0.0,,,diagnostic,"registered near-zero: no claim<->span entailment check. Report attributable detection, not raw non-grounded output."
+polarity_simple,0,,3.0,,not_run,sentence-scoped negation; simple flips detectable
+polarity_scoped,0,,,,not_run,registered to fail: no scope model
+nominal_inflation,0,,,,not_run,registered near-zero: tier-0 claims cannot exceed a hedged source
