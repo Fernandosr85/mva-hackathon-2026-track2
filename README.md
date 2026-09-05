@@ -17,6 +17,7 @@ that claim can be checked — and so that nothing here is mistaken for more than
 | # | Artefact | State | Where |
 |---|---|---|---|
 | 1 | **Verifier logic** | **FROZEN** · `489e04ad03f2d74b6932f4780d49a8896041e3c33e40d6e7f9efd35c108c7536` | `verifier/track2_evidence_verifier_v3.ipynb` |
+| 1b | **The same notebook, executable** | **PUBLIC** — fork and run, no install | [kaggle.com/code/fernandosr85/track-2-evidence-verification](https://www.kaggle.com/code/fernandosr85/track-2-evidence-verification) |
 | 2 | **Preregistration** | **FROZEN** · `f4ec3d6c4b0f82b0d8d163032e32a430e39bf2598b64a0e0f8f9f81a2da1d300` | `verifier/PREREGISTRATION_v3_FROZEN.md` |
 | 3 | **25 mechanical cases** | **REGRESSION SUITE — outcomes already observed** | `evidence/frozen_v3/benchmark_mechanical.jsonl` |
 | 4 | **15 semantic cases** | **DOES NOT EXIST** — awaiting an independent author | — |
@@ -71,7 +72,8 @@ methods/
   METHODS_DESCRIPTION_track2.xlsx          the organisers' methods template, filled
 
 manifests/
-  SHA256SUMS.txt                           every file in this repository
+  SHA256SUMS.txt                           all 29 artefacts; excludes git control
+                                           files and the manifest itself
 ```
 
 ---
@@ -123,6 +125,34 @@ its name represented, which is the failure this whole project is about.
 
 `.gitattributes` marks frozen artefacts `-text` so `core.autocrlf` cannot rewrite line
 endings on checkout. Without it these digests fail on any Windows clone.
+
+## Reproducibility, demonstrated across three runs
+
+The verifier notebook is public and executable:
+**https://www.kaggle.com/code/fernandosr85/track-2-evidence-verification** — fork and run it.
+The corpus, the frozen verifier and the 25-case regression suite rebuild from public APIs
+in about ten minutes.
+
+Three runs, three days, a corpus that drifted every time:
+
+| Identity | 03 Sep | 04 Sep | 05 Sep |
+|---|---|---|---|
+| corpus_sha256 | `3a06b5ea…` (302 records) | `d021db69…` (301) | `d1e290e9…` (300) |
+| run_environment_sha256 | — | `e65d3dd5…` | `8f1e05f0…` |
+| **verifier_logic_sha256** | — | `489e04ad…` | `489e04ad…` |
+| **retrieval_policy_sha256** | — | `a4c1597f…` | `a4c1597f…` |
+| **mechanical_cases_sha256** | — | `d83ef524…` | `d83ef524…` |
+
+Benchmark results were identical across runs: supported 10/10, wrong source 5/5, verb
+inflation 5/5, entity swap 0/5, every invariant holding.
+
+The corpus moved three times; the logic hash did not. Under the earlier design — one field
+bundling logic, corpus, registry and run date — it would have changed on every run with no
+decision having changed. That is the separation working, tested rather than argued.
+
+The case hash deserves its own note: the 25 mechanical cases are drawn from the seven
+full-text documents, retrieved by identifier, not from the discovery corpus. They are
+therefore stable under corpus drift. That was not an obvious property of the design.
 
 ---
 

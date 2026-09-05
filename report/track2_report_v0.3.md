@@ -528,6 +528,16 @@ changed when nothing logical had — the identifier asserted more than its name 
 | Retrieval policy | `a4c1597f887c91d5c6cd0671d5084af897aed0104e48272a06822ee8df41a1e7` |
 | Preregistration | `f4ec3d6c4b0f82b0d8d163032e32a430e39bf2598b64a0e0f8f9f81a2da1d300` |
 
+**Reproducibility, tested rather than argued.** The verifier is public and executable at
+`kaggle.com/code/fernandosr85/track-2-evidence-verification`. Across three runs on three
+consecutive days the discovery corpus drifted every time — 302, then 301, then 300 unique
+records — while `verifier_logic_sha256`, `retrieval_policy_sha256` and the 25-case
+`mechanical_cases_sha256` were byte-identical, and every benchmark figure and invariant
+reproduced exactly. Under the earlier single-field design the identifier would have changed
+on all three runs with no decision having changed. The case hash is stable because the
+mechanical cases are drawn from the seven full-text documents, retrieved by identifier,
+rather than from the drifting corpus.
+
 The logic hash is stable across corpus drift and across days; the run environment hash is
 not, by design. All artefacts and a verification command are in the repository.
 
@@ -602,7 +612,10 @@ publication.
 **Re-identification.** No public communication about this work includes information capable
 of re-identifying the child or the family beyond what the family has already made public.
 
-This report and its accompanying artefacts are released under CC BY 4.0.
+This report and its accompanying artefacts are released under CC BY 4.0. The executable
+copy of the verifier hosted on Kaggle carries Apache 2.0, a code licence, which does not
+conflict with the submission: the repository copy of the same notebook, and every artefact
+it produces, remain under CC BY 4.0.
 ## Conclusion
 
 Track 2 begins with a genetically defined BUB1B-MVA case but does not assume that genotype
